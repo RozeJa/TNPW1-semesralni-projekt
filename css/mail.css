@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+:root {
+    --color-main: #2BEB64;
+    --color-main-dark: #496B54;
+    --color-main-faded: #4BAD6A;
+    --color-main-inverze: #EB3F3C;
+    --color-main-inverze-dark: #994948;
+    --color-transparent-black-30: rgba(0, 0, 0, .3);
+    --color-white: #eeeeee;
+    --color-grey: #dddddd;
+    --color-grey-dark: #888;
+    --color-black: #1a1a1a;
+
+    --transition-delay-short: .5s;
+    --transition-delay-long: 1s;
+
+    --border-radius: 10px;
+}
+
+header {
+    display: flex;
+    width: 88vw;
+    padding: 0 6vw;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-main);
+    font-weight: bold;
+    height: fit-content;
+    z-index: 10;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+header > nav input {
+    padding: .5vh 1vw;
+    font-size: 1.2em;
+    border: none;
+    border-radius: var(--border-radius);
+}
+
+.search-bar {
+    align-self: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: black;
+    height: 10vh;
+}
+
+.nav-bar p {
+    margin: 0;
+}
+
+.nav-bar > li {
+    margin-left: 1vw;
+}
+
+.nav-bar > li:hover {
+    padding: 3vh 0;
+}
+
+.nav-bar a, .nav-bar p {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 1.5vh 1.5vw;
+    border-radius: var(--border-radius);
+}
+
+.nav-bar > li > a:hover, .nav-bar > li > p:hover {
+    background-color: var(--color-main-faded);
+    transition-duration: var(--transition-delay-short);
+}
+
+.nav-bar-categories-container {
+    display: none;
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-transparent-black-30);
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-bar-categories {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    top: 2vh;
+    padding: 4vh 0;
+    margin: 0 10vw;
+    height: 70vh;
+    width: 80vw;
+    border-radius: var(--border-radius);
+    background-color: var(--color-white);
+}
+
+.nav-bar li:hover > .nav-bar-categories-container {
+    display: flex;
+}
+
+.nav-bar-categories-categories {
+    list-style: none;
+    padding-right: 2vw;
+    width: 20vw;
+    height: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+.nav-bar-categories-categories li {
+    padding: 1vh 1vw;
+    font-weight: normal;
+    background-color: inherit;
+    transition-duration: var(--transition-delay-short);
+}
+
+.nav-bar-categories-categories li:hover {
+    background-color: var(--color-grey);
+}
+
+.nav-bar-categories-subcategories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 1vw;
+    border-left: 1px solid var(--color-grey);
+
+    font-size: .8em;
+    font-weight: normal;
+    overflow-y: scroll;
+}
+
+.nav-bar-categories-subcategory {
+    display: flex;
+    align-items: center;
+    width: 18%;
+    height: fit-content;
+    padding: 2%;
+    margin: 1%;
+    border-radius: var(--border-radius);
+    background-color: var(--color-grey);
+    
+    box-shadow: none;
+    transition-duration: var(--transition-delay-short);
+}
+
+.nav-bar-categories-subcategory:hover {    
+    box-shadow: .5em .5em .5em var(--color-grey);
+}
+
+.nav-bar-categories-subcategory img {
+    max-height: min-content;
+    border-radius: 5em;
+} 
+
+.nav-bar-categories-subcategory a, .nav-bar-categories-subcategory p {
+    padding: 0;
+}
+
+.nav-bar-categories-subcategory > p {
+    width: 90%;
+    padding-left: 1vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+main {
+    min-height: 100vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: .8em;
+}
+footer h3 {
+    font-size: 1.5em;
+}
+footer a {
+    color: var(--color-grey);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--color-white);
+}
+.footer-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 4vh 0;
+}
+.footer-copy {
+    display: flex;
+    width: 40%;
+    font-size: .8em;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}

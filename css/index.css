@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10vh;
+}
+
+
+.header-section {
+    align-items: center;
+}
