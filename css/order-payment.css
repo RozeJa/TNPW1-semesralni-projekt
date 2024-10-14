@@ -1,7 +1,6 @@
 #order-payment-main {
     margin: 0;
     text-align: center;
-    
 }
 
 #order-payment-container > h2 {
@@ -14,6 +13,7 @@
 
 #order-payment-container {
     margin-top: 8%;
+    padding: 1vh 2vw;
     background-color: var(--color-grey);
     border-radius: var(--border-radius-big);
     font-weight: bold;

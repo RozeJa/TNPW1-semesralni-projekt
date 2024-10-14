@@ -1,0 +1,24 @@
+#account-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#account-main .page-nav {
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+
+#account-main .form h2 {
+    text-align: start;
+    width: 100%;
+}
+
+#account-main .shopping-cart h2 {
+    font-size: 1.5em;
+}
+
+#account-main .shopping-cart-content {
+    margin: 2vh 0;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObchodBezFront</title>
+    <link rel="stylesheet" href="/css/mail.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/shopping-cart.css">
+    <link rel="stylesheet" href="/css/account.css">
+</head>
+<body>
+    <header>
+        <!-- nahradit logem -->
+        <div>LOGO</div>
+        <nav>
+            <div class="search-bar">
+                <input type="text" name="search" placeholder="vyhledat">
+            </div>
+            <ul class="nav-bar">
+                <!-- element doplni JS podle opravneni -->
+                <li><a href="/html/administration/crossroad.html">Administrace</a></li>
+                <li>
+                    <p>Kategorie</p>
+                    <div class="nav-bar-categories-container">
+                        <div class="nav-bar-categories">
+                            <!-- kontent by se měl vygenerovat -->
+                            <ul class="nav-bar-categories-categories">
+                                <li><a href="kategorii">saddsdad ></a></li>
+                            </ul>
+                            <div class="nav-bar-categories-subcategories">
+                                <div class="nav-bar-categories-subcategory">
+                                    <a href=""><img src="" alt="sad"></a>
+                                    <p><a href="">asdasdakkkkkkkk sdsadsa</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- predelat na favikon s textem -->
+                <li><a href="/html/user/login.html">Přihlášní</a></li>
+                <!-- predelat na favikon -->
+                <li><a href="/html/offer/shopping-cart.html">Košík</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="account-main">
+        <section class="page-nav">
+            <p>
+                <a href="/html/index.html">domu</a>
+                &nbsp;>&nbsp;
+                <!-- doplnit email -->
+                <a href="/html/user/account.html">email</a>
+            </p>
+        </section>
+        <section class="form">
+            <h2>Základní údaje</h2>
+            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+            <div class="form-element">
+                <label for="login">Přihlašovací email:</label>
+                <input type="email" name="login" readonly>
+            </div>
+            <div class="form-element">
+                <label for="email">Kontaktní email:</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-element">
+                <label for="phone">Telefon:</label>
+                <input type="tel" name="phone">
+            </div>
+            <div class="form-element">
+                <a href="/html/user/change-pw.html">Změnit heslo</a>
+                <!-- vymyslet jak to v demu zpracovat (možná jen jako btn) -->
+                <a href="todo">Zapnout dvoufázové ověření</a>
+            </div>
+        </section>
+        <section class="form">
+            <h2>Fakturační údaje</h2>
+            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+            <div class="form-element">
+                <label for="ico">IČO:</label>
+                <input type="text" name="ico">
+            </div>
+            <div class="form-element">
+                <label for="dic">DIČ:</label>
+                <input type="text" name="dic">
+            </div>
+            <div class="form-element">
+                <label for="name">Jméno a přijmení:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-element">
+                <label for="town">Město:</label>
+                <input type="text" name="town">
+            </div>
+            <div class="form-element">
+                <label for="psc">PSČ:</label>
+                <input type="text" name="psc">
+            </div>
+            <div class="form-element">
+                <label for="streat">Ulice:</label>
+                <input type="text" name="streat">
+            </div>
+            <div class="form-element">
+                <div></div>
+                <button>Uložit</button>
+            </div>
+        </section>        
+        <section class="shopping-cart">
+            <h2>Aktivní objednávky</h2>
+            <div class="shopping-cart-content">
+                <!-- generuje se z objednávek -->
+                <div class="shopping-cart-item">
+                    <p>date</p>
+                    <p><a href="/html/offer/order.html">id</a></p>
+                    <p>cena Kč</p>
+                    <p>state</p>
+                    <p><a href="faktura">faktura</a></p>
+                    <button>x</button>
+                </div>
+            </div>
+        </section>
+        <section class="shopping-cart">
+            <h2>Archivované objednávky</h2>
+            <div class="shopping-cart-content">
+                <!-- generuje se z objednávek -->
+                <div class="shopping-cart-item">
+                    <p>date</p>
+                    <p><a href="/html/offer/order.html">id</a></p>
+                    <p>cena Kč</p>
+                    <p>state</p>
+                    <p><a href="faktura">faktura</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-info">
+            <div>
+                <h3>Informace o stránce</h3>
+                <p><a href="/html/info/about.html">O nás</a></p>
+                <p><a href="/html/info/terms-of-usa.html">Podmínky použití</a></p>
+                <p><a href="/html/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
+                <p><a href="/html/info/career.html">Kariéra</a></p>
+            </div>
+            <div>
+                <h3>Kontaktujte nás</h3>
+                <p><a href="mailto:info@obchodbezfron.com">info@obchodbezfron.com</a></p>
+                <p><a href="tel:+420788788788">+420 788 788 788</a></p>
+                <!-- foplnit favikony -->
+                <div>
+                    <a href="https://www.facebook.com/">f</a>
+                    <a href="https://www.instagram.com/">i</a>
+                    <a href="https://x.com/">x</a>
+                    <a href="https://www.youtube.com/">y</a>
+                    <a href="https://www.tiktok.com/">t</a>
+                </div>
+            </div>
+        </section>
+        <section class="footer-copy">
+            <p>&copy; 2024 všechna práva vyhrazena</p>
+            <p>Jedná se o studentský zápočtový projekt</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -12,14 +12,29 @@
 
 .form .form-element {
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-between;
+    align-items: center;
     margin: 1vh 0;
     font-size: 1.1em;
 }
 
-
 .form .form-element input {
     font-size: 1em;
     padding: .3vh .3vw;
+}
+
+.form .form-element button, .form .form-element a {
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    padding: 1vh 1vw;
+    background-color: var(--color-main-faded);
+    color: var(--color-white);
+    transition-duration: var(--transition-delay-short);
+}
+
+.form .form-element button:hover, .form .form-element a:hover {
+    box-shadow: .5em .5em .5em var(--color-grey-dark);
+    padding: 1vh 1.5vw;
 }

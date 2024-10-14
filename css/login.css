@@ -51,7 +51,7 @@ main {
 
 .login-form-btns button {
     background-color: var(--color-main-inverze);
-    color: var(--color-black);
+    color: var(--color-white);
     transition-duration: var(--transition-delay-short);
     border-radius: var(--border-radius);
     font-size: 1.2em;
@@ -60,7 +60,7 @@ main {
 }
 
 .login-form-btns button:hover {
-    color: var(--color-white);
+    padding: 1.5vh 1.5vw;
 }
 
 .login-form-btns > div {
