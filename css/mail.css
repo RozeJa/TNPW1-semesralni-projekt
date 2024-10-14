@@ -22,6 +22,7 @@ body {
     --transition-delay-long: 1s;
 
     --border-radius: 10px;
+    --border-radius-big: 25px;
 }
 
 header {
@@ -75,7 +76,7 @@ header > nav input {
 }
 
 .nav-bar a, .nav-bar p {
-    text-decoration: none;
+    
     color: black;
     cursor: pointer;
     padding: 1.5vh 1.5vw;
@@ -203,7 +204,6 @@ footer h3 {
 }
 footer a {
     color: var(--color-grey);
-    text-decoration: none;
 }
 footer a:hover {
     color: var(--color-white);
@@ -221,4 +221,14 @@ footer a:hover {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    border: none;
 }

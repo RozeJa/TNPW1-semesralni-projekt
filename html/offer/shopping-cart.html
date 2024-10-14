@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
     <link rel="stylesheet" href="/css/mail.css">
-    <link rel="stylesheet" href="/css/category.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/products-scroll-bar.css">
+    <link rel="stylesheet" href="/css/shopping-cart.css">
 </head>
 <body>
     <header>
@@ -42,97 +44,55 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="filter">
-            
-            <div class="filter-container">
-                <h2>Filtrujte</h2> 
-                <hr>
-                <div class="filter-content">
-                    <!-- generuje se -->
-                    <div class="filter-item">
-                        <p>label</p>
-                        <select name="" id="">
-                            <option value="fas">asdf</option>
-                        </select>
-                    </div>
-                </div>
-                <button>Zavřít ftr</button>
-            </div>
-            <div class="rolling-window-icon">
-                
-            </div>
+    <main id="shopping-cart-main">
+        <section class="page-nav">
+            <p>
+                <a href="/html/index.html">domu</a>
+                &nbsp;>&nbsp;
+                <a href="#">košík</a>
+            </p>
         </section>
-        <section class="category">
-            <!-- kategorie resetuje výběr podkategorie, podkategorie odkáže sama na sebe -->
-            <section class="page-nav">
-                <p>
-                    <a href="/html/index.html">domu</a>
-                    &nbsp;>&nbsp;
-                    <a href="/html/offer/category.html">kategorie</a>
-                    &nbsp;>&nbsp;
-                    <a href="subkategorie">podkategorie</a>
-                </p>
-            </section>
-            <section class="category-subcategory-selection">
-                <h2>Podkategorie</h2>
-                <div class="category-subcategories">
-                <!-- generuje se -->
-                    <div class="category-subcategory">
-                        <p><a href="podkategorie">asdasdasda</a></p>
-                        <a href="podkategorie"><img src="" alt="obrazek"></a>
-                    </div>
-                </div>
-            </section>
-            <section class="category-sorting">
-                <h2>Sařadit výsledky</h2>
-                <div>
-                    <label>Nejprodávanější</label>
-                    <input type="radio" name="sort" value="top-sell" checked>
-                    <label>Nejlevnější</label>
-                    <input type="radio" name="sort" value="lovest-prize">
-                    <label>Nejdražší</label>
-                    <input type="radio" name="sort" value="biggest-prize">
-                </div>
-            </section>
-            <hr>
-            <section class="category-products">
-                <div class="category-products-container">
-                    <!-- generuje se -->
-                    <div class="category-product">
+        <section class="products-scroll-bar">
+            <h2>Ostatní nakupují</h2>
+            <div class="products-scroll-bar-content">
+                <div><button><</button></div>
+                <!-- bude se dogenerovavat -->
+                <div class="products-scroll-bar-products">
+                    <div class="products-scroll-bar-product">
                         <img src="" alt="obrazek">
                         <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="category-product-price">
+                        <div class="products-scroll-bar-product-price">
                             <p>Sleva xx %</p>
                             <p>xx Kč</p>
                         </div>
                         <button>Do košíku</button>
                     </div>
                 </div>
-                <button>Načíst další produkty</button>
-            </section>
+                <div><button>></button></div>
+            </div>
         </section>
         <section class="shopping-cart">
-            <div class="shopping-cart-container">
-                <h2>Váš nákup</h2> 
-                <hr>
-                <div class="shopping-cart-content">
-                    <!-- interaguje s uživatelem -->
-                    <div class="shopping-cart-item">
-                        <p>item</p>
-                        <div>
-                            <button>-</button>
-                            <input type="number">
-                            <button>+</button>
-                        </div>
-                        <p>cena Kč</p>
+            <h2>Váš nákup</h2>
+            <div class="shopping-cart-content">
+                <!-- generuje se z košíku -->
+                <div class="shopping-cart-item">
+                    <img src="" alt="obrazek">
+                    <p><a href="polozka">polozka</a></p>
+                    <div>
+                        <button>-</button>
+                        <input type="number">
+                        <button>+</button>
                     </div>
+                    <p>cena Kč</p>
+                    <button>x</button>
                 </div>
-                <a href="/html/offer/shopping-cart.html">Dokončit Cena Kč</a><br>
-                <button>Zavřít náhled na košík</button>
             </div>
-            <div class="rolling-window-icon">
-                
+        </section>
+        <section class="shopping-continue">
+            <a href="/html/index.html">Zpět k nákupu</a>
+            <div>
+                <p>Cena nákupu: xxx Kč</p>
+                <a href="/html/offer/order-complete.html">Objednat</a>
             </div>
         </section>
     </main>

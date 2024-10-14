@@ -1,0 +1,8 @@
+#order-complete-main {
+    margin: 0;
+}
+
+#order-complete-main .page-nav {
+    align-self: flex-start;
+    padding-left: 10vw;
+}

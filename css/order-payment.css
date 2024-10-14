@@ -1,0 +1,24 @@
+#order-payment-main {
+    margin: 0;
+    text-align: center;
+    
+}
+
+#order-payment-container > h2 {
+    font-size: 2.4em;
+}
+
+#order-payment-container > p {
+    font-size: 1.2em;
+}
+
+#order-payment-container {
+    margin-top: 8%;
+    background-color: var(--color-grey);
+    border-radius: var(--border-radius-big);
+    font-weight: bold;
+}
+
+#order-payment-container a {
+    color: var(--color-main-inverze);
+}

@@ -6,7 +6,8 @@
     <title>ObchodBezFront</title>
     <link rel="stylesheet" href="/css/mail.css">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/products-scroll-bar.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/order-payment.css">
 </head>
 <body>
     <header>
@@ -43,55 +44,28 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Nakupujte z pohodlí domova</h1>
-        <h2>S námi se už nemusíte obávat dlouhých front</h2>
-        <section class="products-scroll-bar">
-            <h2>V akci</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
-                <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
-                    </div>
+    <main id="order-payment-main">
+        <div id="order-payment-container">
+            <h2>Vaše objednávka byla úspěšně zadána</h2>
+            <p>Aby jsme ji mohly začíst zpracovávat prosím uhraďte částku xxxx Kč převodem na účet</p>
+            <section class="form">
+                <h2>Platební údaje</h2>
+                <div class="form-element">
+                    <label>Číslo účtu:</label>
+                    <p>xxxxxxxxxxxxxxxx/xxxx</p>
                 </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Do vyprodání zásob</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
+                <div class="form-element">
+                    <label>Částka:</label>
+                    <p>x xxx Kč</p>
                 </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Pro vás</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
+                <div class="form-element">
+                    <label>Variabilní symbol:</label>
+                    <p>xxxxxxxxxx</p>
                 </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Nejprodávanější</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
-        </section>
+            </section>
+            <!-- doplní se id objednavky -->
+            <p>Stav Vaší <a href="/html/offer/order.html">objednávky</a> můžete sledovat v <a href="/html/user/account.html">přehledu svého účtu</a></p>
+        </div>
     </main>
     <footer>
         <section class="footer-info">

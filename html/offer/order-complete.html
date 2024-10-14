@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="/css/mail.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/products-scroll-bar.css">
+    <link rel="stylesheet" href="/css/shopping-cart.css">
+    <link rel="stylesheet" href="/css/order-complete.css">
+    <link rel="stylesheet" href="/css/form.css">
 </head>
 <body>
     <header>
@@ -43,53 +46,79 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Nakupujte z pohodlí domova</h1>
-        <h2>S námi se už nemusíte obávat dlouhých front</h2>
-        <section class="products-scroll-bar">
-            <h2>V akci</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
-                <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
+    <main id="order-complete-main">
+        <section class="page-nav">
+            <p>
+                <a href="/html/index.html">domu</a>
+                &nbsp;>&nbsp;
+                <a href="/html/offer/shopping-cart.html">košík</a>
+                &nbsp;>&nbsp;
+                <a href="#">dokončení objednávky</a>
+            </p>
+        </section>
+        <section class="form">
+            <h2>Doručovací údaje</h2>
+            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+            <div class="form-element">
+                <label for="name">Jméno a příjmení:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-element">
+                <label for="town">Město:</label>
+                <input type="text" name="town">
+            </div>
+            <div class="form-element">
+                <label for="psc">PSČ:</label>
+                <input type="text" name="psc">
+            </div>
+            <div class="form-element">
+                <label for="streat">Ulice:</label>
+                <input type="text" name="streat">
+            </div>
+            <div class="form-element">
+                <label for="name">Čas dodání:</label>
+                <select name="delivery-time">
+                    <option value="">Vyberte</option>
+                    <option value="6:00 - 8:00">6:00 - 8:00</option>
+                    <option value="8:00 - 10:00">8:00 - 10:00</option>
+                    <option value="10:00 - 12:00">10:00 - 12:00</option>
+                    <option value="12:00 - 14:00">12:00 - 14:00</option>
+                    <option value="14:00 - 16:00">14:00 - 16:00</option>
+                    <option value="16:00 - 18:00">16:00 - 18:00</option>
+                    <option value="18:00 - 20:00">18:00 - 20:00</option>
+                    <option value="20:00 - 22:00">20:00 - 22:00</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="name">Datum dodání:</label>
+                <input type="date" name="delivery-date">
+            </div>
+        </section>
+        <section class="form">
+            <h2>Platební údaje</h2>
+            <div class="form-element">
+                <p>Platba je možná pouze převodem na účet</p>
+            </div>
+        </section>
+        <section class="shopping-cart">
+            <h2>Váš nákup</h2>
+            <div class="shopping-cart-content">
+                <!-- generuje se z košíku -->
+                <div class="shopping-cart-item">
+                    <img src="" alt="obrazek">
+                    <p><a href="polozka">polozka</a></p>
+                    <div>
+                        <p>pocet kusu</p>
                     </div>
+                    <p>cena Kč</p>
                 </div>
-                <div><button>></button></div>
             </div>
         </section>
-        <section class="products-scroll-bar">
-            <h2>Do vyprodání zásob</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Pro vás</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Nejprodávanější</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
+        <section class="shopping-continue">
+            <a href="/html/offer/shopping-cart.html">Do košíku</a>
+            <div>
+                <p>Cena nákupu: xxx Kč</p>
+                <a href="/html/offer/order-payment.html">Objednat</a>
             </div>
         </section>
     </main>

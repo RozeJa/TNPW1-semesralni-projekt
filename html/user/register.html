@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
     <link rel="stylesheet" href="/css/mail.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/products-scroll-bar.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     <header>
@@ -44,54 +43,32 @@
         </nav>
     </header>
     <main>
-        <h1>Nakupujte z pohodlí domova</h1>
-        <h2>S námi se už nemusíte obávat dlouhých front</h2>
-        <section class="products-scroll-bar">
-            <h2>V akci</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
-                <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
-                    </div>
-                </div>
-                <div><button>></button></div>
+        <div class="login-form">
+            <h2>Registrujte se</h2>
+            <div class="login-form-field">
+                <label for="login">Jméno a Přijmení</label>
+                <input type="text" name="name" required>
             </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Do vyprodání zásob</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
+            <div class="login-form-field">
+                <label for="login">Email</label>
+                <input type="email" name="login" required>
             </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Pro vás</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
+            <div class="login-form-field">
+                <label for="password">Heslo</label>
+                <input type="password" name="password" required>
             </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Nejprodávanější</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
+            <div class="login-form-field">
+                <label for="password">Heslo znovu</label>
+                <input type="password" name="password-check" required>
             </div>
-        </section>
+            <div class="login-form-btns">
+                <button>Registrovat</button>
+                <div>
+                    <span></span>
+                    <a href="./login.html">Účet už mám</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <section class="footer-info">
