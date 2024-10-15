@@ -1,0 +1,30 @@
+#order-main {
+    margin: 0;
+}
+
+#order-main .page-nav {
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+
+.shopping-cart-order {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-cart-order button {
+    padding: 1.5vh 1.5vw;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--color-main-inverze);
+    border-radius: var(--border-radius);
+    color: var(--color-white);
+    transition-duration: var(--transition-delay-short);
+}
+
+.shopping-cart-order button:hover {
+    color: var(--color-grey);
+    padding: 2vh 2vw;
+}
