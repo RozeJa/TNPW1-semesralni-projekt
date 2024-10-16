@@ -1,0 +1,68 @@
+#crossroad-main {
+    margin: 0;
+}
+
+#crossroad-main .page-nav {
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+
+.crossroad-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10vh 0;
+}
+
+.crossroad-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.crossroad-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-main-faded);
+    padding: 4%;
+    margin: 2%;
+    border-radius: 1em;
+    min-width: 15em;
+
+    transition-duration: var(--transition-delay-short);
+}
+
+.crossroad-entry:hover {
+    box-shadow: 1em 1em 2em var(--color-grey-dark);
+}
+
+.crossroad-entry p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.crossroad-entry img {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .management {
+        margin: 0;
+        width: 100%;
+    }
+    .crossroad-entry:hover {
+        box-shadow: .5em .5em 1em var(--color-grey-dark);
+    }
+    
+}

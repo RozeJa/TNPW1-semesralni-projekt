@@ -6,7 +6,8 @@
     <title>ObchodBezFront</title>
     <link rel="stylesheet" href="/css/mail.css">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/products-scroll-bar.css">
+    <link rel="stylesheet" href="/css/item.css">
+    <link rel="stylesheet" href="/css/form.css">
 </head>
 <body>
     <header>
@@ -43,54 +44,72 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Nakupujte z pohodlí domova</h1>
-        <h2>S námi se už nemusíte obávat dlouhých front</h2>
-        <section class="products-scroll-bar">
-            <h2>V akci</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
-                <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
+    <main id="item-main">
+        <section class="page-nav">
+            <p>
+                <a href="/html/index.html">domu</a>
+                &nbsp;>&nbsp;
+                <a href="/html/administration/crossroad.html">administrace</a>
+                &nbsp;>&nbsp;
+                <!-- generuje se -->
+                <a href="/html/administration/data-table.html">typ dat (produkty)</a>
+                &nbsp;>&nbsp;
+                <!-- generuje se -->
+                <a href="/html/administration/item.html">id itemu</a>
+            </p>
+        </section>
+        <section class="item-content">
+            <!-- generuje se -->
+            <h1>Item: id</h1>
+
+            <form action="#" method="post">
+                <div class="form">
+                    <!-- generuje se -->
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <input type="email" name="login">
+                    </div>
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <input type="checkbox" name="checkbox">
+                    </div>
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <select name="" id="">
+                            <option value="">asdad</option>
+                            <option value="">asdad</option>
+                            <option value="">asdad</option>
+                            <option value="">asdad</option>
+                            <option value="">asdad</option>
+                        </select>
+                    </div>
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <input type="file">
+                    </div>
+                    <div class="form-element">
+                        <label for="login">Přihlašovací email:</label>
+                        <input type="button" value="+">
+                    </div>
+                    <div class="form-element">
+                        <div class="form-element-items">
+                            <div class="form-element-items-item">
+                                <input type="text">
+                                <input type="file" name="" id="">
+                                <input type="button" value="x">
+                            </div>
                         </div>
-                        <button>Do košíku</button>
+                    </div>
+                    <div class="form-element">
+                        <!-- generuje se -->
+                        <a href="/html/administration/data-table.html">Zahodit změny</a>
+                        <input type="submit" value="Uložit">
                     </div>
                 </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Do vyprodání zásob</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Pro vás</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
-        </section>
-        <section class="products-scroll-bar">
-            <h2>Nejprodávanější</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <div class="products-scroll-bar-products">
-                </div>
-                <div><button>></button></div>
-            </div>
         </section>
     </main>
     <footer>

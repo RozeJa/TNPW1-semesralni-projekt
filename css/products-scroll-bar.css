@@ -42,7 +42,7 @@
     padding: 1vh 1vw;
     border-radius: var(--border-radius);
     background-color: var(--color-white);
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     box-shadow: none;
     transition-duration: var(--transition-delay-short);

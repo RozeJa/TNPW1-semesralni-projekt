@@ -1,0 +1,78 @@
+#data-table-main {
+    margin: 0;
+}
+
+#data-table-main .page-nav {
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+
+.spreadsheet {
+    margin-top: 5vh;
+    width: 70%;
+}
+
+.spreadsheet-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vh 0;
+    padding: 1vh 2vw;
+    background-color: var(--color-main);
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 1.2em;
+
+    border-radius: var(--border-radius);
+}
+
+
+.spreadsheet-header input {
+    font-size: 1em;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1vh 1vw;
+}
+
+.spreadsheet-header a {
+    background-color: var(--color-main-inverze);
+    color: var(--color-white);
+    border-radius: var(--border-radius);
+    padding: .5vh .5vw;
+    transition-duration: var(--transition-delay-short);
+}
+
+.spreadsheet-header a:hover {
+    padding: 1vh 1vw;
+}
+
+.spreadsheet table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-black);
+    margin-top: 5vh;
+}
+
+.spreadsheet table td, .spreadsheet table th {
+    text-align: center;
+    padding: 1vh 0;
+    border: 1px solid var(--color-black);
+    font-weight: bold;
+}
+
+.spreadsheet table thead tr {
+    background-color: var(--color-main);
+    font-size: 1.2em;
+}
+
+.spreadsheet table tbody tr:nth-child(2n+2) {
+    background-color: var(--color-main-faded-80);
+}
+.spreadsheet table tbody tr:nth-child(2n+1) {
+    background-color: var(--color-main-faded-40);
+}
+.spreadsheet table tbody tr:hover {
+    background-color: var(--color-main-faded);
+    color: var(--color-white);
+    transition-duration: var(--transition-delay-shortes);
+}

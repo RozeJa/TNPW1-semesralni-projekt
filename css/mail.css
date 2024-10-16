@@ -10,6 +10,8 @@ body {
     --color-main: #2BEB64;
     --color-main-dark: #496B54;
     --color-main-faded: #4BAD6A;
+    --color-main-faded-80: #4bad6a80;
+    --color-main-faded-40: #4BAD6A40;
     --color-main-inverze: #EB3F3C;
     --color-main-inverze-dark: #994948;
     --color-transparent-black-30: rgba(0, 0, 0, .3);
@@ -18,6 +20,7 @@ body {
     --color-grey-dark: #888;
     --color-black: #1a1a1a;
 
+    --transition-delay-shortes: .25s;
     --transition-delay-short: .5s;
     --transition-delay-long: 1s;
 

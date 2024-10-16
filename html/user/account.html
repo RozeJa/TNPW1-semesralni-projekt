@@ -53,59 +53,61 @@
                 <a href="/html/user/account.html">email</a>
             </p>
         </section>
-        <section class="form">
-            <h2>Základní údaje</h2>
-            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
-            <div class="form-element">
-                <label for="login">Přihlašovací email:</label>
-                <input type="email" name="login" readonly>
-            </div>
-            <div class="form-element">
-                <label for="email">Kontaktní email:</label>
-                <input type="email" name="email">
-            </div>
-            <div class="form-element">
-                <label for="phone">Telefon:</label>
-                <input type="tel" name="phone">
-            </div>
-            <div class="form-element">
-                <a href="/html/user/change-pw.html">Změnit heslo</a>
-                <!-- vymyslet jak to v demu zpracovat (možná jen jako btn) -->
-                <a href="todo">Zapnout dvoufázové ověření</a>
-            </div>
-        </section>
-        <section class="form">
-            <h2>Fakturační údaje</h2>
-            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
-            <div class="form-element">
-                <label for="ico">IČO:</label>
-                <input type="text" name="ico">
-            </div>
-            <div class="form-element">
-                <label for="dic">DIČ:</label>
-                <input type="text" name="dic">
-            </div>
-            <div class="form-element">
-                <label for="name">Jméno a přijmení:</label>
-                <input type="text" name="name">
-            </div>
-            <div class="form-element">
-                <label for="town">Město:</label>
-                <input type="text" name="town">
-            </div>
-            <div class="form-element">
-                <label for="psc">PSČ:</label>
-                <input type="text" name="psc">
-            </div>
-            <div class="form-element">
-                <label for="streat">Ulice:</label>
-                <input type="text" name="streat">
-            </div>
-            <div class="form-element">
-                <div></div>
-                <button>Uložit</button>
-            </div>
-        </section>        
+        <form action="#" method="post">
+            <section class="form">
+                <h2>Základní údaje</h2>
+                <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+                <div class="form-element">
+                    <label for="login">Přihlašovací email:</label>
+                    <input type="email" name="login" readonly>
+                </div>
+                <div class="form-element">
+                    <label for="email">Kontaktní email:</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-element">
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" name="phone">
+                </div>
+                <div class="form-element">
+                    <a href="/html/user/change-pw.html">Změnit heslo</a>
+                    <!-- vymyslet jak to v demu zpracovat (možná jen jako btn) -->
+                    <a href="#">Zapnout dvoufázové ověření</a>
+                </div>
+            </section>
+            <section class="form">
+                <h2>Fakturační údaje</h2>
+                <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+                <div class="form-element">
+                    <label for="ico">IČO:</label>
+                    <input type="text" name="ico">
+                </div>
+                <div class="form-element">
+                    <label for="dic">DIČ:</label>
+                    <input type="text" name="dic">
+                </div>
+                <div class="form-element">
+                    <label for="name">Jméno a přijmení:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-element">
+                    <label for="town">Město:</label>
+                    <input type="text" name="town">
+                </div>
+                <div class="form-element">
+                    <label for="psc">PSČ:</label>
+                    <input type="text" name="psc">
+                </div>
+                <div class="form-element">
+                    <label for="streat">Ulice:</label>
+                    <input type="text" name="streat">
+                </div>
+                <div class="form-element">
+                    <div></div>
+                    <input type="submit" value="Uložit">
+                </div>
+            </section>        
+        </form>
         <section class="shopping-cart">
             <h2>Aktivní objednávky</h2>
             <div class="shopping-cart-content">
@@ -149,11 +151,11 @@
                 <p><a href="tel:+420788788788">+420 788 788 788</a></p>
                 <!-- foplnit favikony -->
                 <div>
-                    <a href="https://www.facebook.com/">f</a>
-                    <a href="https://www.instagram.com/">i</a>
-                    <a href="https://x.com/">x</a>
-                    <a href="https://www.youtube.com/">y</a>
-                    <a href="https://www.tiktok.com/">t</a>
+                    <a href="https://www.facebook.com/" target="_blank">f</a>
+                    <a href="https://www.instagram.com/" target="_blank">i</a>
+                    <a href="https://x.com/" target="_blank">x</a>
+                    <a href="https://www.youtube.com/" target="_blank">y</a>
+                    <a href="https://www.tiktok.com/" target="_blank">t</a>
                 </div>
             </div>
         </section>
