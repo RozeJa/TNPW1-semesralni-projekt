@@ -36,10 +36,18 @@
                         </div>
                     </div>
                 </li>
-                <!-- predelat na favikon s textem -->
-                <li><a href="/html/user/login.html">Přihlášní</a></li>
-                <!-- predelat na favikon -->
-                <li><a href="/html/offer/shopping-cart.html">Košík</a></li>
+                <li>
+                    <a href="/html/user/login.html">
+                    <img src="/imgs/favicons/user.png" alt="uzivatel">
+                        Přihlášní
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/offer/shopping-cart.html">
+                        <img src="/imgs/favicons/shopping-cart.png" alt="kosik">
+                        Košík
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -59,7 +67,7 @@
                 <input type="text" placeholder="vyhledat">
                 <!-- generuje se -->
                 <h1>Jako data zde jsou</h1>
-                <a href="/html/administration/item.html">Nový</a>
+                <a href="/html/administration/item.html?category=&id=new">Nový</a>
             </div>
             <table>
                 <thead>
@@ -132,25 +140,38 @@
                 <p><a href="/html/info/about.html">O nás</a></p>
                 <p><a href="/html/info/terms-of-usa.html">Podmínky použití</a></p>
                 <p><a href="/html/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
-                <p><a href="/html/info/career.html">Kariéra</a></p>
             </div>
             <div>
                 <h3>Kontaktujte nás</h3>
                 <p><a href="mailto:info@obchodbezfron.com">info@obchodbezfron.com</a></p>
                 <p><a href="tel:+420788788788">+420 788 788 788</a></p>
-                <!-- foplnit favikony -->
-                <div>
-                    <a href="https://www.facebook.com/" target="_blank">f</a>
-                    <a href="https://www.instagram.com/" target="_blank">i</a>
-                    <a href="https://x.com/" target="_blank">x</a>
-                    <a href="https://www.youtube.com/" target="_blank">y</a>
-                    <a href="https://www.tiktok.com/" target="_blank">t</a>
+                
+                <div class="footer-info-socmed">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/imgs/icons/facebook.ico" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/imgs/icons/instagram.ico" alt="instagram">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="/imgs/icons/youtube.ico" alt="youtube">
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <img src="/imgs/icons/twitter.ico" alt="x">
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        <img src="/imgs/icons/tiktok.ico" alt="tiktok">
+                    </a>
                 </div>
             </div>
         </section>
         <section class="footer-copy">
             <p>&copy; 2024 všechna práva vyhrazena</p>
             <p>Jedná se o studentský zápočtový projekt</p>
+        </section>
+        <section class="footer-copy">
+            <p>Ikony byly staženy z <a href="https://icons-for-free.com" target="_blank">icons-for-free.com</a></p>
+            <p>Favikony byly staženy z <a href="https://icons8.com/" target="_blank">icons8.com</a></p>
         </section>
     </footer>
 </body>

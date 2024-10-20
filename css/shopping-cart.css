@@ -63,6 +63,7 @@
     align-items: center;
     justify-content: space-around;
     position: fixed;
+    z-index: 11;
     bottom: 0;
     width: 100%;
     background-color: var(--color-main);

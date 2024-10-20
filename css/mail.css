@@ -45,7 +45,7 @@ header {
 header > nav {
     display: flex;
     align-items: center;
-    height: 7vh;
+    height: 10vh;
 }
 header > nav input {
     padding: .5vh 1vw;
@@ -78,8 +78,10 @@ header > nav input {
     padding: 3vh 0;
 }
 
-.nav-bar a, .nav-bar p {
-    
+.nav-bar a, .nav-bar p {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: black;
     cursor: pointer;
     padding: 1.5vh 1.5vw;
@@ -91,10 +93,14 @@ header > nav input {
     transition-duration: var(--transition-delay-short);
 }
 
+.nav-bar a > img {
+    height: 2em;
+}
+
 .nav-bar-categories-container {
     display: none;
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     left: 0;
     right: 0;
     bottom: 0;
@@ -195,12 +201,15 @@ main {
 }
 
 footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-black);
     color: var(--color-white);
     font-size: .8em;
+    position: absolute;
+    z-index: 10;
 }
 footer h3 {
     font-size: 1.5em;
@@ -224,6 +233,20 @@ footer a:hover {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1vh;
+}
+
+.footer-info-socmed {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-info-socmed img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-info-socmed a {
+    padding: 5%;
 }
 
 a {

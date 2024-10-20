@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
     <link rel="stylesheet" href="/css/mail.css">
+    <link rel="stylesheet" href="/css/info.css">
+
+    <script defer src="/js/info.js"></script>
 </head>
 <body>
     <header>
@@ -34,15 +37,106 @@
                         </div>
                     </div>
                 </li>
-                <!-- predelat na favikon s textem -->
-                <li><a href="/html/user/login.html">Přihlášní</a></li>
-                <!-- predelat na favikon -->
-                <li><a href="/html/offer/shopping-cart.html">Košík</a></li>
+                <li>
+                    <a href="/html/user/login.html">
+                    <img src="/imgs/favicons/user.png" alt="uzivatel">
+                        Přihlášní
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/offer/shopping-cart.html">
+                        <img src="/imgs/favicons/shopping-cart.png" alt="kosik">
+                        Košík
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-
+    <main class="info-main">
+        <section class="info-nav">
+            <ul>
+                <li class="info-nav-inactive"><a href="#personal-data-manager">Správce osobních údajů</a></li>
+                <li class="info-nav-inactive"><a href="#data-we-do-collect">Jaké údaje shromažďujeme?</a></li>
+                <li class="info-nav-inactive"><a href="#how-do-we-use-data">Jak údaje používáme?</a></li>
+                <li class="info-nav-inactive"><a href="#how-do-we-protect-your data">Jak chráníme vaše údaje?</a></li>
+                <li class="info-nav-inactive"><a href="#who-has-access-to-the-data">Kdo má k údajům přístup?</a></li>
+                <li class="info-nav-inactive"><a href="#how-long-do-we-keep data">Jak dlouho údaje uchováváme?</a></li>
+                <li class="info-nav-inactive"><a href="#your-rights">Vaše práva</a></li>
+                <li class="info-nav-inactive"><a href="#changes-to-this-policy">Změny těchto zásad</a></li>
+            </ul>
+        </section>
+        <section class="info-container">
+            <h1>Zásady ochrany osobních údajů</h1>
+            <p>V ObchodBezFront s.r.o. respektujeme vaše soukromí a zavazujeme se chránit vaše osobní údaje. Tyto Zásady ochrany osobních údajů vysvětlují, jakým způsobem shromažďujeme, používáme a chráníme vaše osobní údaje při používání našich webových stránek a služeb.</p>
+            <ol>
+                <li class="info-container-bookmark" id="personal-data-manager">
+                    Správce osobních údajů<br>
+                    <p>Správcem vašich osobních údajů je ObchodBezFront s.r.o., se sídlem [Adresa firmy], IČO [IČO], zapsaná v obchodním rejstříku [Město registrace]</p>
+                </li>
+                <li class="info-container-bookmark" id="data-we-do-collect">
+                    Jaké údaje shromažďujeme?<br>
+                    <p>Při používání našich webových stránek a služeb můžeme shromažďovat následující kategorie osobních údajů:</p>
+                    <ul>
+                        <li><strong>Identifikační údaje</strong>: Jméno, příjmení, uživatelské jméno</li>
+                        <li><strong>Kontaktní údaje</strong>: E-mailová adresa, telefonní číslo, doručovací a fakturační adresa</li>
+                        <li><strong>Platební údaje</strong>: Informace o platebních kartách a transakcích (tyto údaje zpracovávají pouze poskytovatelé platebních služeb)</li>
+                        <li><strong>Technické údaje</strong>: IP adresa, typ prohlížeče, operační systém, informace o interakcích s našimi webovými stránkami (cookies)</li>
+                        <li><strong>Informace o nákupech</strong>: Historie objednávek, způsob doručení, případné reklamace a stížnosti</li>
+                    </ul>
+                </li>
+                <li class="info-container-bookmark" id="how-do-we-use-data">
+                    Jak údaje používáme?<br>
+                    <p>Shromážděné osobní údaje používáme k následujícím účelům:</p>
+                    <ul>
+                        <li><strong>Plnění smlouvy</strong>: K vyřízení a doručení vaší objednávky, komunikaci v souvislosti s objednávkami, platbami a doručením zboží</li>
+                        <li><strong>Zlepšení služeb</strong>: K personalizaci našich služeb a nabídek na základě vašich preferencí a historie nákupů</li>
+                        <li><strong>Marketing</strong>: Pokud nám udělíte souhlas, můžeme vám zasílat informace o našich novinkách, speciálních nabídkách a slevách</li>
+                        <li><strong>Právní povinnosti</strong>: K plnění našich povinností podle právních předpisů (např. účetnictví, daňové povinnosti)</li>
+                        <li><strong>Bezpečnost a prevence zneužití</strong>: K ochraně našich webových stránek a služeb proti podvodům a zneužití</li>
+                    </ul>
+                </li>
+                <li class="info-container-bookmark" id="how-do-we-protect-your data">
+                    Jak chráníme vaše údaje?<br>
+                    <p>Osobní údaje uchováváme v zabezpečených systémech a podnikáme veškerá opatření, abychom zabránili jejich ztrátě, zneužití nebo neoprávněnému přístupu. Používáme technologie jako šifrování a zabezpečené komunikační kanály (např. HTTPS).</p>
+                </li>
+                <li class="info-container-bookmark" id="who-has-access-to-the-data">
+                    Kdo má k údajům přístup?<br>
+                    <p>Vaše osobní údaje sdílíme pouze s těmito kategoriemi příjemců:</p>
+                    <ul>
+                        <li><b>Poskytovatelé platebních služeb</b> pro zpracování plateb</li>
+                        <li><b>Doručovací služby</b> pro doručení objednávek</li>
+                        <li><b>Technologičtí partneři</b> poskytující hostingové, analytické a marketingové služby</li>
+                        <li><b>Orgány veřejné správy</b>  v souladu s právními předpisy (např. pro účely daňových kontrol)</li>
+                    </ul>
+                    <p>Veškeré třetí strany, se kterými spolupracujeme, jsou povinny chránit vaše údaje v souladu s těmito Zásadami ochrany osobních údajů a GDPR.</p>
+                </li>
+                <li class="info-container-bookmark" id="how-long-do-we-keep data">
+                    Jak dlouho údaje uchováváme?<br>
+                    <p>Osobní údaje uchováváme po dobu nezbytně nutnou k naplnění výše uvedených účelů, nebo po dobu stanovenou zákony. Například:</p>
+                    <ul>
+                        <li>Fakturační údaje uchováváme po dobu 10 let, jak vyžaduje zákon o účetnictví.</li>
+                        <li>Údaje spojené s marketingovými aktivitami uchováváme do doby, než odvoláte svůj souhlas.</li>
+                    </ul>
+                </li>
+                <li class="info-container-bookmark" id="your-rights">
+                    Vaše práva<br>
+                    <p>V souladu s GDPR máte následující práva týkající se vašich osobních údajů::</p>
+                    <ul>
+                        <li><strong>Právo na přístup</strong>: Můžete nás požádat o potvrzení, zda zpracováváme vaše osobní údaje, a požádat o jejich kopii.</li>
+                        <li><strong>Právo na opravu</strong>: Pokud jsou vaše údaje nepřesné nebo neúplné, můžete nás požádat o jejich opravu.</li>
+                        <li><strong>Právo na výmaz</strong>: Můžete nás požádat o vymazání vašich osobních údajů, pokud již nejsou potřebné k účelům, pro které byly shromážděny.</li>
+                        <li><strong>Právo na omezení zpracování</strong>: Máte právo požadovat omezení zpracování vašich osobních údajů v určitých situacích.</li>
+                        <li><strong>Právo na přenositelnost</strong>: Máte právo získat osobní údaje, které jste nám poskytli, ve strukturovaném, běžně používaném a strojově čitelném formátu.</li>
+                        <li><strong>Právo vznést námitku</strong>: Můžete vznést námitku proti zpracování vašich osobních údajů na základě našich oprávněných zájmů, nebo pokud je zpracováváme pro účely přímého marketingu</li>
+                    </ul>
+                    <p>Pro uplatnění vašich práv nás kontaktujte na naší e-mailové adrese: <a href="mailto:info@obchodbezfron.com">info@obchodbezfron.com</a></p>
+                </li>
+                <li class="info-container-bookmark" id="changes-to-this-policy">
+                    Změny těchto zásad<br>
+                    <p>Vyhrazujeme si právo kdykoli změnit tyto Zásady ochrany osobních údajů. O jakýchkoli podstatných změnách vás budeme informovat prostřednictvím oznámení na našich webových stránkách nebo e-mailem.</p>
+                </li>
+            </ol>
+        </section>
     </main>
     <footer>
         <section class="footer-info">
@@ -51,25 +145,38 @@
                 <p><a href="/html/info/about.html">O nás</a></p>
                 <p><a href="/html/info/terms-of-usa.html">Podmínky použití</a></p>
                 <p><a href="/html/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
-                <p><a href="/html/info/career.html">Kariéra</a></p>
             </div>
             <div>
                 <h3>Kontaktujte nás</h3>
                 <p><a href="mailto:info@obchodbezfron.com">info@obchodbezfron.com</a></p>
                 <p><a href="tel:+420788788788">+420 788 788 788</a></p>
-                <!-- foplnit favikony -->
-                <div>
-                    <a href="https://www.facebook.com/" target="_blank">f</a>
-                    <a href="https://www.instagram.com/" target="_blank">i</a>
-                    <a href="https://x.com/" target="_blank">x</a>
-                    <a href="https://www.youtube.com/" target="_blank">y</a>
-                    <a href="https://www.tiktok.com/" target="_blank">t</a>
+                
+                <div class="footer-info-socmed">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/imgs/icons/facebook.ico" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/imgs/icons/instagram.ico" alt="instagram">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="/imgs/icons/youtube.ico" alt="youtube">
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <img src="/imgs/icons/twitter.ico" alt="x">
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        <img src="/imgs/icons/tiktok.ico" alt="tiktok">
+                    </a>
                 </div>
             </div>
         </section>
         <section class="footer-copy">
             <p>&copy; 2024 všechna práva vyhrazena</p>
             <p>Jedná se o studentský zápočtový projekt</p>
+        </section>
+        <section class="footer-copy">
+            <p>Ikony byly staženy z <a href="https://icons-for-free.com" target="_blank">icons-for-free.com</a></p>
+            <p>Favikony byly staženy z <a href="https://icons8.com/" target="_blank">icons8.com</a></p>
         </section>
     </footer>
 </body>
