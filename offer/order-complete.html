@@ -4,47 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
+    <link rel="shortcut icon" href="/imgs/favicons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/mail.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/products-scroll-bar.css">
     <link rel="stylesheet" href="/css/shopping-cart.css">
+    <link rel="stylesheet" href="/css/order-complete.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <script defer src="/js/menu.js"></script>
 </head>
 <body>
     <header>
-        <!-- nahradit logem -->
-        <div>LOGO</div>
+        <div id="logo">
+            <a href="/index.html"><img src="/imgs/logo.png" alt="logo"></a>
+        </div>
         <nav>
             <div class="search-bar">
                 <input type="text" name="search" placeholder="vyhledat">
             </div>
             <ul class="nav-bar">
-                <!-- element doplni JS podle opravneni -->
-                <li><a href="/html/administration/crossroad.html">Administrace</a></li>
+                <li><a href="/administration/crossroad.html">Administrace</a></li>
                 <li>
                     <p>Kategorie</p>
                     <div class="nav-bar-categories-container">
                         <div class="nav-bar-categories">
-                            <!-- kontent by se měl vygenerovat -->
                             <ul class="nav-bar-categories-categories">
-                                <li><a href="kategorii">saddsdad ></a></li>
                             </ul>
                             <div class="nav-bar-categories-subcategories">
-                                <div class="nav-bar-categories-subcategory">
-                                    <a href=""><img src="" alt="sad"></a>
-                                    <p><a href="">asdasdakkkkkkkk sdsadsa</a></p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="/html/user/login.html">
+                    <a href="/user/login.html" id="nav-login">
                     <img src="/imgs/favicons/user.png" alt="uzivatel">
                         Přihlášní
                     </a>
                 </li>
                 <li>
-                    <a href="/html/offer/shopping-cart.html">
+                    <a href="/offer/shopping-cart.html">
                         <img src="/imgs/favicons/shopping-cart.png" alt="kosik">
                         Košík
                     </a>
@@ -52,31 +50,58 @@
             </ul>
         </nav>
     </header>
-    <main id="shopping-cart-main">
+    <main id="order-complete-main">
         <section class="page-nav">
             <p>
-                <a href="/html/index.html">domu</a>
+                <a href="/index.html">domu</a>
                 &nbsp;>&nbsp;
-                <a href="/html/offer/shopping-cart.html">košík</a>
+                <a href="/offer/shopping-cart.html">košík</a>
+                &nbsp;>&nbsp;
+                <a href="#">dokončení objednávky</a>
             </p>
         </section>
-        <section class="products-scroll-bar">
-            <h2>Ostatní nakupují</h2>
-            <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
-                <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
-                    </div>
-                </div>
-                <div><button>></button></div>
+        <section class="form">
+            <h2>Doručovací údaje</h2>
+            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
+            <div class="form-element">
+                <label for="name">Jméno a příjmení:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-element">
+                <label for="town">Město:</label>
+                <input type="text" name="town">
+            </div>
+            <div class="form-element">
+                <label for="psc">PSČ:</label>
+                <input type="text" name="psc">
+            </div>
+            <div class="form-element">
+                <label for="streat">Ulice:</label>
+                <input type="text" name="streat">
+            </div>
+            <div class="form-element">
+                <label for="name">Čas dodání:</label>
+                <select name="delivery-time">
+                    <option value="">Vyberte</option>
+                    <option value="6:00 - 8:00">6:00 - 8:00</option>
+                    <option value="8:00 - 10:00">8:00 - 10:00</option>
+                    <option value="10:00 - 12:00">10:00 - 12:00</option>
+                    <option value="12:00 - 14:00">12:00 - 14:00</option>
+                    <option value="14:00 - 16:00">14:00 - 16:00</option>
+                    <option value="16:00 - 18:00">16:00 - 18:00</option>
+                    <option value="18:00 - 20:00">18:00 - 20:00</option>
+                    <option value="20:00 - 22:00">20:00 - 22:00</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="name">Datum dodání:</label>
+                <input type="date" name="delivery-date">
+            </div>
+        </section>
+        <section class="form">
+            <h2>Platební údaje</h2>
+            <div class="form-element">
+                <p>Platba je možná pouze převodem na účet</p>
             </div>
         </section>
         <section class="shopping-cart">
@@ -87,20 +112,17 @@
                     <img src="" alt="obrazek">
                     <p><a href="polozka">polozka</a></p>
                     <div>
-                        <button>-</button>
-                        <input type="number">
-                        <button>+</button>
+                        <p>pocet kusu</p>
                     </div>
                     <p>cena Kč</p>
-                    <button>x</button>
                 </div>
             </div>
         </section>
         <section class="shopping-continue">
-            <a href="/html/index.html">Zpět k nákupu</a>
+            <a href="/offer/shopping-cart.html">Do košíku</a>
             <div>
                 <p>Cena nákupu: xxx Kč</p>
-                <a href="/html/offer/order-complete.html">Objednat</a>
+                <a href="/offer/order-payment.html">Objednat</a>
             </div>
         </section>
     </main>
@@ -108,9 +130,9 @@
         <section class="footer-info">
             <div>
                 <h3>Informace o stránce</h3>
-                <p><a href="/html/info/about.html">O nás</a></p>
-                <p><a href="/html/info/terms-of-usa.html">Podmínky použití</a></p>
-                <p><a href="/html/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
+                <p><a href="/info/about.html">O nás</a></p>
+                <p><a href="/info/terms-of-usa.html">Podmínky použití</a></p>
+                <p><a href="/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
             </div>
             <div>
                 <h3>Kontaktujte nás</h3>
@@ -138,12 +160,10 @@
         </section>
         <section class="footer-copy">
             <p>&copy; 2024 všechna práva vyhrazena</p>
-            <p>Jedná se o studentský zápočtový projekt</p>
-        </section>
-        <section class="footer-copy">
+            <p>Jedná se o studentský zápočtový projekt</p>            
             <p>Ikony byly staženy z <a href="https://icons-for-free.com" target="_blank">icons-for-free.com</a></p>
             <p>Favikony byly staženy z <a href="https://icons8.com/" target="_blank">icons8.com</a></p>
         </section>
     </footer>
 </body>
-</html>
+<>

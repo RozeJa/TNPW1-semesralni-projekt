@@ -49,6 +49,7 @@
     background-color: var(--color-main-inverze);
     border: var(--border-radius);
     color: var(--color-white);
+    border-radius: var(--border-radius);
 }
 
 .shopping-cart-item input {

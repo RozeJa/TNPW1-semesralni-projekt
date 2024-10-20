@@ -9,7 +9,7 @@
             "discount": 5,
             "supplier": "FruitCo",
             "stock": 120,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@
             "discount": 10,
             "supplier": "CitrusFarm",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 3,
@@ -31,7 +31,7 @@
             "discount": 0,
             "supplier": "AppleOrchard",
             "stock": 200,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 4,
@@ -42,7 +42,7 @@
             "discount": 5,
             "supplier": "GrapeWorld",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 5,
@@ -53,7 +53,7 @@
             "discount": 0,
             "supplier": "BerryFarm",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 6,
@@ -64,7 +64,7 @@
             "discount": 0,
             "supplier": "PeachParadise",
             "stock": 70,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 7,
@@ -75,7 +75,7 @@
             "discount": 0,
             "supplier": "NutCompany",
             "stock": 50,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 8,
@@ -86,7 +86,7 @@
             "discount": 0,
             "supplier": "TomatoFarm",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 9,
@@ -97,7 +97,7 @@
             "discount": 0,
             "supplier": "CarrotField",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 10,
@@ -108,7 +108,7 @@
             "discount": 0,
             "supplier": "CucumberFarm",
             "stock": 110,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 11,
@@ -119,7 +119,7 @@
             "discount": 0,
             "supplier": "OnionField",
             "stock": 130,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 12,
@@ -130,7 +130,7 @@
             "discount": 0,
             "supplier": "PotatoFarm",
             "stock": 140,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 13,
@@ -141,7 +141,7 @@
             "discount": 0,
             "supplier": "SaladGarden",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 14,
@@ -152,7 +152,7 @@
             "discount": 5,
             "supplier": "PumpkinPatch",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 15,
@@ -163,7 +163,7 @@
             "discount": 0,
             "supplier": "DairyFarm",
             "stock": 70,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 16,
@@ -174,7 +174,7 @@
             "discount": 10,
             "supplier": "DairyDelights",
             "stock": 200,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 17,
@@ -185,7 +185,7 @@
             "discount": 0,
             "supplier": "MilkFarm",
             "stock": 180,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 18,
@@ -196,7 +196,7 @@
             "discount": 0,
             "supplier": "EggFarm",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 19,
@@ -207,7 +207,7 @@
             "discount": 0,
             "supplier": "ButterFarm",
             "stock": 120,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 20,
@@ -218,7 +218,7 @@
             "discount": 0,
             "supplier": "Creamery",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 21,
@@ -229,7 +229,7 @@
             "discount": 0,
             "supplier": "CondimentCo",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 22,
@@ -240,7 +240,7 @@
             "discount": 0,
             "supplier": "PoultryFarm",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 23,
@@ -251,7 +251,7 @@
             "discount": 5,
             "supplier": "BeefFarm",
             "stock": 50,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 24,
@@ -262,7 +262,7 @@
             "discount": 10,
             "supplier": "Fishery",
             "stock": 40,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 25,
@@ -273,7 +273,7 @@
             "discount": 5,
             "supplier": "PorkFarm",
             "stock": 70,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 26,
@@ -284,7 +284,7 @@
             "discount": 0,
             "supplier": "BioFarm",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 27,
@@ -295,7 +295,7 @@
             "discount": 5,
             "supplier": "GrillMasters",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 28,
@@ -306,7 +306,7 @@
             "discount": 10,
             "supplier": "WildGame",
             "stock": 30,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 29,
@@ -317,7 +317,7 @@
             "discount": 0,
             "supplier": "Bakery",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 30,
@@ -328,7 +328,7 @@
             "discount": 0,
             "supplier": "SnackBakery",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 31,
@@ -339,7 +339,7 @@
             "discount": 0,
             "supplier": "SweetBakery",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 32,
@@ -350,7 +350,7 @@
             "discount": 5,
             "supplier": "CakeShop",
             "stock": 40,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 33,
@@ -361,7 +361,7 @@
             "discount": 0,
             "supplier": "FlatbreadBakery",
             "stock": 110,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 34,
@@ -372,7 +372,7 @@
             "discount": 0,
             "supplier": "BreadingCo",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 35,
@@ -383,7 +383,7 @@
             "discount": 5,
             "supplier": "GlutenFreeBakery",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 36,
@@ -394,7 +394,7 @@
             "discount": 0,
             "supplier": "DeliMeat",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 37,
@@ -405,7 +405,7 @@
             "discount": 5,
             "supplier": "SausageFactory",
             "stock": 70,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 38,
@@ -416,7 +416,7 @@
             "discount": 0,
             "supplier": "InstantFoodCo",
             "stock": 200,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 39,
@@ -427,7 +427,7 @@
             "discount": 10,
             "supplier": "TraditionalMeats",
             "stock": 50,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 40,
@@ -438,7 +438,7 @@
             "discount": 0,
             "supplier": "SausageCo",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 41,
@@ -449,7 +449,7 @@
             "discount": 0,
             "supplier": "PâtéHouse",
             "stock": 70,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 42,
@@ -460,7 +460,7 @@
             "discount": 0,
             "supplier": "PestoCo",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 43,
@@ -471,7 +471,7 @@
             "discount": 5,
             "supplier": "DeliGoods",
             "stock": 30,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 44,
@@ -482,7 +482,7 @@
             "discount": 0,
             "supplier": "IceCreamShop",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 45,
@@ -493,7 +493,7 @@
             "discount": 0,
             "supplier": "FruitCo",
             "stock": 120,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 46,
@@ -504,7 +504,7 @@
             "discount": 5,
             "supplier": "PizzaPlace",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 47,
@@ -515,7 +515,7 @@
             "discount": 0,
             "supplier": "FryHouse",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 48,
@@ -526,7 +526,7 @@
             "discount": 0,
             "supplier": "CakeBakery",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 49,
@@ -537,7 +537,7 @@
             "discount": 0,
             "supplier": "PoultryFarm",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 50,
@@ -548,7 +548,7 @@
             "discount": 0,
             "supplier": "NutCo",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 51,
@@ -559,7 +559,7 @@
             "discount": 0,
             "supplier": "OliveFarm",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 52,
@@ -570,7 +570,7 @@
             "discount": 0,
             "supplier": "SauceCo",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 53,
@@ -581,7 +581,7 @@
             "discount": 0,
             "supplier": "CannedGoodsCo",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 54,
@@ -592,7 +592,7 @@
             "discount": 0,
             "supplier": "ChocolateFactory",
             "stock": 120,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 55,
@@ -603,7 +603,7 @@
             "discount": 0,
             "supplier": "PastaCo",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 56,
@@ -614,7 +614,7 @@
             "discount": 0,
             "supplier": "SugarCo",
             "stock": 200,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 57,
@@ -625,7 +625,7 @@
             "discount": 0,
             "supplier": "SaltCo",
             "stock": 220,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 58,
@@ -636,7 +636,7 @@
             "discount": 0,
             "supplier": "SpiceCo",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 59,
@@ -647,7 +647,7 @@
             "discount": 0,
             "supplier": "OliveCo",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 60,
@@ -658,7 +658,7 @@
             "discount": 0,
             "supplier": "JamFactory",
             "stock": 100,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 61,
@@ -669,7 +669,7 @@
             "discount": 0,
             "supplier": "BuckwheatCo",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 62,
@@ -680,7 +680,7 @@
             "discount": 0,
             "supplier": "RiceFarm",
             "stock": 150,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 63,
@@ -691,7 +691,7 @@
             "discount": 0,
             "supplier": "CornFarm",
             "stock": 140,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 64,
@@ -702,7 +702,7 @@
             "discount": 0,
             "supplier": "BeanFarm",
             "stock": 80,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 65,
@@ -713,7 +713,7 @@
             "discount": 0,
             "supplier": "LentilFarm",
             "stock": 90,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 66,
@@ -724,7 +724,7 @@
             "discount": 0,
             "supplier": "TofuCo",
             "stock": 60,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 67,
@@ -735,7 +735,7 @@
             "discount": 0,
             "supplier": "TempehCo",
             "stock": 50,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 68,
@@ -746,7 +746,7 @@
             "discount": 0,
             "supplier": "SeitanCo",
             "stock": 40,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 69,
@@ -757,7 +757,7 @@
             "discount": 0,
             "supplier": "AlmondCo",
             "stock": 30,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         },
         {
             "id": 70,
@@ -768,7 +768,7 @@
             "discount": 0,
             "supplier": "CoconutCo",
             "stock": 40,
-            "imagePath": ""
+            "imagePath": "/imgs/favicons/favicon.png"
         }
     ]
 }

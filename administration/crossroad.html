@@ -4,46 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
+    <link rel="shortcut icon" href="/imgs/favicons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/mail.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/crossroad.css">
+    <script defer src="/js/menu.js"></script>
 </head>
 <body>
     <header>
-        <!-- nahradit logem -->
-        <div>LOGO</div>
+        <div id="logo">
+            <a href="/index.html"><img src="/imgs/logo.png" alt="logo"></a>
+        </div>
         <nav>
             <div class="search-bar">
                 <input type="text" name="search" placeholder="vyhledat">
             </div>
             <ul class="nav-bar">
-                <!-- element doplni JS podle opravneni -->
-                <li><a href="/html/administration/crossroad.html">Administrace</a></li>
+                <li><a href="/administration/crossroad.html">Administrace</a></li>
                 <li>
                     <p>Kategorie</p>
                     <div class="nav-bar-categories-container">
                         <div class="nav-bar-categories">
-                            <!-- kontent by se měl vygenerovat -->
                             <ul class="nav-bar-categories-categories">
-                                <li><a href="kategorii">saddsdad ></a></li>
                             </ul>
                             <div class="nav-bar-categories-subcategories">
-                                <div class="nav-bar-categories-subcategory">
-                                    <a href=""><img src="" alt="sad"></a>
-                                    <p><a href="">asdasdakkkkkkkk sdsadsa</a></p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="/html/user/login.html">
+                    <a href="/user/login.html" id="nav-login">
                     <img src="/imgs/favicons/user.png" alt="uzivatel">
                         Přihlášní
                     </a>
                 </li>
                 <li>
-                    <a href="/html/offer/shopping-cart.html">
+                    <a href="/offer/shopping-cart.html">
                         <img src="/imgs/favicons/shopping-cart.png" alt="kosik">
                         Košík
                     </a>
@@ -54,31 +50,31 @@
     <main id="crossroad-main">
         <section class="page-nav">
             <p>
-                <a href="/html/index.html">domu</a>
+                <a href="/index.html">domu</a>
                 &nbsp;>&nbsp;
-                <a href="/html/administration/crossroad.html">administrace</a>
+                <a href="/administration/crossroad.html">administrace</a>
             </p>
         </section>
         <div class="crossroad-container">
             <div class="crossroad-entry">
-                <a href="/html/administration/data-table.html?category=products">
+                <a href="/administration/data-table.html?category=products">
                     <img src="/imgs/favicons/product.png" alt="produkty">
                 </a>
                 <p>
-                    <a href="/html/administration/data-table.html?category=products">Produkty</a>
+                    <a href="/administration/data-table.html?category=products">Produkty</a>
                 </p>
             </div>
             <div class="crossroad-entry">
-                <a href="/html/administration/data-table.html?category=categories"><img src="/imgs/favicons/category.png" alt="kategorie"></a>
-                <p><a href="/html/administration/data-table.html?category=categories">Kategorie</a></p>
+                <a href="/administration/data-table.html?category=categories"><img src="/imgs/favicons/category.png" alt="kategorie"></a>
+                <p><a href="/administration/data-table.html?category=categories">Kategorie</a></p>
             </div>
             <div class="crossroad-entry">
-                <a href="/html/administration/data-table.html?category=orders"><img src="/imgs/favicons/order.png" alt="objednavky"></a>
-                <p><a href="/html/administration/data-table.html?category=orders">Objednávky</a></p>
+                <a href="/administration/data-table.html?category=orders"><img src="/imgs/favicons/order.png" alt="objednavky"></a>
+                <p><a href="/administration/data-table.html?category=orders">Objednávky</a></p>
             </div>
             <div class="crossroad-entry">
-                <a href="/html/administration/data-table.html?category=users"><img src="/imgs/favicons/user.png" alt="uzivatele"></a>
-                <p><a href="/html/administration/data-table.html?category=users">Uživatelé</a></p>
+                <a href="/administration/data-table.html?category=users"><img src="/imgs/favicons/user.png" alt="uzivatele"></a>
+                <p><a href="/administration/data-table.html?category=users">Uživatelé</a></p>
             </div>
         </div>
     </main>
@@ -86,9 +82,9 @@
         <section class="footer-info">
             <div>
                 <h3>Informace o stránce</h3>
-                <p><a href="/html/info/about.html">O nás</a></p>
-                <p><a href="/html/info/terms-of-usa.html">Podmínky použití</a></p>
-                <p><a href="/html/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
+                <p><a href="/info/about.html">O nás</a></p>
+                <p><a href="/info/terms-of-usa.html">Podmínky použití</a></p>
+                <p><a href="/info/privacy-policy.html">Zásady ochrany osobních údajů</a></p>
             </div>
             <div>
                 <h3>Kontaktujte nás</h3>
@@ -116,12 +112,10 @@
         </section>
         <section class="footer-copy">
             <p>&copy; 2024 všechna práva vyhrazena</p>
-            <p>Jedná se o studentský zápočtový projekt</p>
-        </section>
-        <section class="footer-copy">
+            <p>Jedná se o studentský zápočtový projekt</p>            
             <p>Ikony byly staženy z <a href="https://icons-for-free.com" target="_blank">icons-for-free.com</a></p>
             <p>Favikony byly staženy z <a href="https://icons8.com/" target="_blank">icons8.com</a></p>
         </section>
     </footer>
 </body>
-</html>
+<>
