@@ -31,29 +31,47 @@ if (properties["subcategory"] !== "") {
     
     let subcategories = document.querySelector(".category-subcategory-selection") 
     let h2 = document.createElement("h2")
-    let div = document.createElement("div")
+    let container = document.createElement("div")
     h2.innerText = "Podkategorie"
-    div.classList.add("category-subcategories")
+    container.classList.add("category-subcategories")
     subcategories.appendChild(h2)
-
     
-    // TODO načti kategorie a podkategorie zjisti které podkategorie je třeba vyrentrovat a vyrendruj je
+    fetch("/data/categories.json")
+    .then(data => data.json())
+    .then(categories => {
+        fetch("/data/subcategories.json")
+        .then(data => data.json())
+        .then(subcategories => {
+            let curentCategory = categories.find(c => c.url === properties["category"])
+            let selectedSubcategories = subcategories.filter(subcategory => curentCategory.subcategory_ids.includes(subcategory.id))
+            
+            selectedSubcategories.forEach(subcategory => {
+                let subcategoryContainer = document.createElement("div")
+                subcategoryContainer.classList.add("category-subcategory")
 
+                let p = document.createElement("p")
+                let a = document.createElement("a")
+                let a_img = document.createElement("a")
+                let img = document.createElement("img")
 
+                a.href = `/offer/category.html?category=${properties["category"]}&subcategory=${subcategory.url}`
+                a.innerText = subcategory.name
 
-    subcategories.appendChild(div)
+                a_img.href = `/offer/category.html?category=${properties["category"]}&subcategory=${subcategory.url}`
+                img.src = subcategory.imagePath
+                img.alt = subcategory.url
 
-    /**
-     * 
-     *                 <h2>Podkategorie</h2>
-                <div class="category-subcategories">
-                <!-- generuje se -->
-                    <div class="category-subcategory">
-                        <p><a href="podkategorie">asdasdasda</a></p>
-                        <a href="podkategorie"><img src="" alt="obrazek"></a>
-                    </div>
-                </div>
-     */
+                p.appendChild(a)
+                a_img.appendChild(img)
 
+                subcategoryContainer.appendChild(p)
+                subcategoryContainer.appendChild(a_img)
+
+                container.appendChild(subcategoryContainer)
+            })
+        })
+    })
+    
+    subcategories.appendChild(container)
 }
 

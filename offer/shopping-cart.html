@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/products-scroll-bar.css">
     <link rel="stylesheet" href="/css/shopping-cart.css">
     <script defer src="/js/menu.js"></script>
+    <script defer src="/js/shopping-catr.js"></script>
 </head>
 <body>
     <header>
@@ -59,43 +60,21 @@
         <section class="products-scroll-bar">
             <h2>Ostatní nakupují</h2>
             <div class="products-scroll-bar-content">
-                <div><button><</button></div>
-                <!-- bude se dogenerovavat -->
+                <div><button><img src="/imgs/icons/toLeft.ico" alt="tlacitko"></button></div>
                 <div class="products-scroll-bar-products">
-                    <div class="products-scroll-bar-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="products-scroll-bar-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
-                    </div>
                 </div>
-                <div><button>></button></div>
+                <div><button><img src="/imgs/icons/toRight.ico" alt="tlacitko"></button></div>
             </div>
         </section>
         <section class="shopping-cart">
             <h2>Váš nákup</h2>
             <div class="shopping-cart-content">
-                <!-- generuje se z košíku -->
-                <div class="shopping-cart-item">
-                    <img src="" alt="obrazek">
-                    <p><a href="polozka">polozka</a></p>
-                    <div>
-                        <button>-</button>
-                        <input type="number">
-                        <button>+</button>
-                    </div>
-                    <p>cena Kč</p>
-                    <button>x</button>
-                </div>
             </div>
         </section>
         <section class="shopping-continue">
             <a href="/index.html">Zpět k nákupu</a>
             <div>
-                <p>Cena nákupu: xxx Kč</p>
+                <p id="shopping-continue-price"></p>
                 <a href="/offer/order-complete.html">Objednat</a>
             </div>
         </section>

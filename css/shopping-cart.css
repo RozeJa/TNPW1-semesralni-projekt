@@ -26,15 +26,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 96%;
-    padding: 1vh 2%;
+    width: 95%;
+    padding: 1vh 2.25%;
     font-weight: bold;
     border-radius: var(--border-radius);
     transition-duration: var(--transition-delay-short);
 }
+
 .shopping-cart-item a {
     color: var(--color-white);
 }
+
 .shopping-cart-item:hover a {
     color: black;
 }
@@ -46,6 +48,8 @@
 .shopping-cart-item button {
     font-size: 1.1em;
     font-weight: bold;
+    width: 1.5em;
+    height: 1.5em;
     background-color: var(--color-main-inverze);
     border: var(--border-radius);
     color: var(--color-white);
@@ -57,6 +61,7 @@
     font-size: 1.1em;
     padding: .2em;
     padding-left: .7vw;
+    margin: auto .5vw;
 }
 
 .shopping-continue {

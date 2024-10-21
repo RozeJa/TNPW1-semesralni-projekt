@@ -66,7 +66,7 @@ function generateCategories(subcategories, categories) {
 
 
 let userJson = sessionStorage.getItem("user")
-if (user !== null) {
+if (userJson !== null) {
     let user = JSON.parse(userJson)
     document.querySelector("#nav-login").innerText = user.name
     document.querySelector("#nav-login").href = "/user/account.html"
