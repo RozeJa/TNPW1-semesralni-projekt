@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObchodBezFront</title>
     <link rel="shortcut icon" href="/imgs/favicons/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/mail.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/login.css">
     <script defer src="/js/menu.js"></script>
 </head>
@@ -21,7 +21,7 @@
             <ul class="nav-bar">
                 <li><a href="/administration/crossroad.html">Administrace</a></li>
                 <li>
-                    <p>Kategorie</p>
+                    <a href="/offer/category.html?category=&subcategory=">Kategorie</a>
                     <div class="nav-bar-categories-container">
                         <div class="nav-bar-categories">
                             <ul class="nav-bar-categories-categories">
@@ -45,6 +45,33 @@
                 </li>
             </ul>
         </nav>
+        <div class='nav-burger'>
+            <div class='nav-burger-menu'>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="nav-burger-content nav-burger-content-hide">
+                <ul class="nav-bar">
+                    <li><a href="/administration/crossroad.html">Administrace</a></li>
+                    <li>
+                        <a href="/offer/category.html?category=&subcategory=">Kategorie</a>
+                    </li>
+                    <li>
+                        <a href="/user/login.html" id="nav-login">
+                        <img src="/imgs/favicons/user.png" alt="uzivatel">
+                            Přihlášní
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/offer/shopping-cart.html">
+                            <img src="/imgs/favicons/shopping-cart.png" alt="kosik">
+                            Košík
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <form class="login-form" action="#" method="post">

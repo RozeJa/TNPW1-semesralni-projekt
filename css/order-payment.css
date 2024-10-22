@@ -25,3 +25,9 @@
 #order-payment-container a {
     color: var(--color-main-inverze);
 }
+
+@media screen and (max-width: 500px) {
+    #order-payment-container {
+        font-size: .8em;
+    }
+}

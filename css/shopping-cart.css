@@ -118,4 +118,7 @@
         font-size: 1em;
         flex-direction: column;
     }
+    .shopping-continue  {
+        font-size: .7em;
+    }
 }

@@ -16,8 +16,6 @@ a.innerText = properties["category"]
 
 page_nav.appendChild(a)
 
-console.log(properties["subcategory"]);
-
 
 if (properties["subcategory"] !== "") {
     page_nav.innerHTML = page_nav.innerHTML + "&nbsp;>&nbsp;"
@@ -27,7 +25,7 @@ if (properties["subcategory"] !== "") {
     a.innerText = properties["subcategory"]
     page_nav.appendChild(a)
 
-} else {
+} else if (properties["category"] !== "") {
     
     let subcategories = document.querySelector(".category-subcategory-selection") 
     let h2 = document.createElement("h2")
@@ -69,6 +67,37 @@ if (properties["subcategory"] !== "") {
 
                 container.appendChild(subcategoryContainer)
             })
+        })
+    })
+    
+    subcategories.appendChild(container)
+} else {
+    let subcategories = document.querySelector(".category-subcategory-selection") 
+    let h2 = document.createElement("h2")
+    let container = document.createElement("div")
+    h2.innerText = "Kategorie"
+    container.classList.add("category-subcategories")
+    subcategories.appendChild(h2)
+    
+    fetch("/data/categories.json")
+    .then(data => data.json())
+    .then(categories => {
+                
+        categories.forEach(category => {
+            let categoryContainer = document.createElement("div")
+            categoryContainer.classList.add("category-subcategory")
+
+            let p = document.createElement("p")
+            let a = document.createElement("a")
+
+            a.href = `/offer/category.html?category=${category.url}&subcategory=`
+            a.innerText = category.name
+
+            p.appendChild(a)
+
+            categoryContainer.appendChild(p)
+
+            container.appendChild(categoryContainer)
         })
     })
     
@@ -175,7 +204,16 @@ renderShoppingCart()
 function generateProducts() {
     let productsContiner = document.querySelector(".category-products-container")
 
-    if (properties["subcategory"] === "") {
+    
+    if (properties["category"] === "") {
+        fetch("/data/products.json")
+        .then(data => data.json())
+        .then(products => {
+            products.forEach(product => {
+                productsContiner.appendChild(creareProduct(product))
+            })
+        })
+    } else if (properties["subcategory"] === "") {
         fetch("/data/categories.json")
         .then(data => data.json())
         .then(categories => {
@@ -265,7 +303,6 @@ function creareProduct(product) {
 
     return container
 }
-
 generateProducts()
 
 

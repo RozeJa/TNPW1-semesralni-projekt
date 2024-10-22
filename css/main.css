@@ -213,6 +213,24 @@ header > nav input {
     overflow-wrap: break-word;
 }
 
+.nav-burger {
+    display: none;
+}
+.nav-burger-menu {
+    cursor: pointer;
+}
+.nav-burger-menu > div {
+    width: 40px;
+    height: 8px;
+    border-radius: 5em;
+    background-color: black;
+    margin: 8px 0;
+}
+
+.nav-burger-content {
+    display: none;
+}
+
 main {
     min-height: 100vh;
 }
@@ -276,8 +294,69 @@ button {
     border: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     nav input {
         display: none;
     }
+    .nav-bar li:hover > .nav-bar-categories-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .footer-copy {
+        flex-direction: column;
+    }
+    header > nav {
+        display: none;
+    }
+    header {
+        justify-content: space-around;
+    }
+    .nav-burger {
+        display: flex;
+    }
+
+    .nav-burger-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        z-index: 20;
+        top: 92.89px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-main);
+        border-top: 1px solid black;
+    }
+    .nav-burger-content ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .nav-burger-content .nav-bar {
+        height: fit-content;
+    }
+    .nav-burger-content .nav-bar > li:hover {
+        padding: 0;
+        background-color: var(--color-main-faded);
+    }
+
+    .nav-burger-content .nav-bar > li {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid  black;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.nav-burger-content-hide {
+    display: none;
 }

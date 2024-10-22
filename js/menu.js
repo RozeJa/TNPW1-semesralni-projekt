@@ -71,3 +71,11 @@ if (userJson !== null) {
     document.querySelector("#nav-login").innerText = user.name
     document.querySelector("#nav-login").href = "/user/account.html"
 }
+
+let navBurgerContent = document.querySelector(".nav-burger-content")
+document.querySelector(".nav-burger-menu").addEventListener("click", () => {
+    navBurgerContent.classList.remove("nav-burger-content-hide")
+})
+document.querySelector("main").addEventListener("click", () => {
+    navBurgerContent.classList.add("nav-burger-content-hide")
+})

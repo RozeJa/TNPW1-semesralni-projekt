@@ -6,6 +6,11 @@ main {
     margin-top: 10vh;
 }
 
+main > h1, main > h2 {
+    padding: 0 5vw;
+    text-align: justify;
+}
+
 
 .header-section {
     align-items: center;
