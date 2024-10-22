@@ -8,7 +8,7 @@
         "discount": 5,
         "supplier": "FruitCo",
         "stock": 120,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -20,7 +20,7 @@
         "discount": 10,
         "supplier": "CitrusFarm",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -32,7 +32,7 @@
         "discount": 0,
         "supplier": "AppleOrchard",
         "stock": 200,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -44,7 +44,7 @@
         "discount": 5,
         "supplier": "GrapeWorld",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -56,7 +56,7 @@
         "discount": 0,
         "supplier": "BerryFarm",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -68,7 +68,7 @@
         "discount": 0,
         "supplier": "PeachParadise",
         "stock": 70,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -80,7 +80,7 @@
         "discount": 0,
         "supplier": "NutCompany",
         "stock": 50,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -92,7 +92,7 @@
         "discount": 0,
         "supplier": "TomatoFarm",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -104,7 +104,7 @@
         "discount": 0,
         "supplier": "CarrotField",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -116,7 +116,7 @@
         "discount": 0,
         "supplier": "CucumberFarm",
         "stock": 110,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -128,7 +128,7 @@
         "discount": 0,
         "supplier": "OnionField",
         "stock": 130,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -140,7 +140,7 @@
         "discount": 0,
         "supplier": "PotatoFarm",
         "stock": 140,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -152,7 +152,7 @@
         "discount": 0,
         "supplier": "SaladGarden",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -164,7 +164,7 @@
         "discount": 5,
         "supplier": "PumpkinPatch",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -176,7 +176,7 @@
         "discount": 0,
         "supplier": "DairyFarm",
         "stock": 70,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -188,7 +188,7 @@
         "discount": 10,
         "supplier": "DairyDelights",
         "stock": 200,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -200,7 +200,7 @@
         "discount": 0,
         "supplier": "MilkFarm",
         "stock": 180,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -212,7 +212,7 @@
         "discount": 0,
         "supplier": "EggFarm",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -224,7 +224,7 @@
         "discount": 0,
         "supplier": "ButterFarm",
         "stock": 120,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -236,7 +236,7 @@
         "discount": 0,
         "supplier": "Creamery",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -248,7 +248,7 @@
         "discount": 0,
         "supplier": "CondimentCo",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -260,7 +260,7 @@
         "discount": 0,
         "supplier": "PoultryFarm",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -272,7 +272,7 @@
         "discount": 5,
         "supplier": "BeefFarm",
         "stock": 50,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -284,7 +284,7 @@
         "discount": 10,
         "supplier": "Fishery",
         "stock": 40,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -296,7 +296,7 @@
         "discount": 5,
         "supplier": "PorkFarm",
         "stock": 70,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -308,7 +308,7 @@
         "discount": 0,
         "supplier": "BioFarm",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -320,7 +320,7 @@
         "discount": 5,
         "supplier": "GrillMasters",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -332,7 +332,7 @@
         "discount": 10,
         "supplier": "WildGame",
         "stock": 30,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -344,7 +344,7 @@
         "discount": 0,
         "supplier": "Bakery",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -356,7 +356,7 @@
         "discount": 0,
         "supplier": "SnackBakery",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -368,7 +368,7 @@
         "discount": 0,
         "supplier": "SweetBakery",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -380,7 +380,7 @@
         "discount": 5,
         "supplier": "CakeShop",
         "stock": 40,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -392,7 +392,7 @@
         "discount": 0,
         "supplier": "FlatbreadBakery",
         "stock": 110,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -404,7 +404,7 @@
         "discount": 0,
         "supplier": "BreadingCo",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -416,7 +416,7 @@
         "discount": 5,
         "supplier": "GlutenFreeBakery",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -428,7 +428,7 @@
         "discount": 0,
         "supplier": "DeliMeat",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -440,7 +440,7 @@
         "discount": 5,
         "supplier": "SausageFactory",
         "stock": 70,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -452,7 +452,7 @@
         "discount": 0,
         "supplier": "InstantFoodCo",
         "stock": 200,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -464,7 +464,7 @@
         "discount": 10,
         "supplier": "TraditionalMeats",
         "stock": 50,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -476,7 +476,7 @@
         "discount": 0,
         "supplier": "SausageCo",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -488,7 +488,7 @@
         "discount": 0,
         "supplier": "PâtéHouse",
         "stock": 70,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -500,7 +500,7 @@
         "discount": 0,
         "supplier": "PestoCo",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -512,7 +512,7 @@
         "discount": 5,
         "supplier": "DeliGoods",
         "stock": 30,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -524,7 +524,7 @@
         "discount": 0,
         "supplier": "IceCreamShop",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -536,7 +536,7 @@
         "discount": 0,
         "supplier": "FruitCo",
         "stock": 120,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -548,7 +548,7 @@
         "discount": 5,
         "supplier": "PizzaPlace",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -560,7 +560,7 @@
         "discount": 0,
         "supplier": "FryHouse",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -572,7 +572,7 @@
         "discount": 0,
         "supplier": "CakeBakery",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -584,7 +584,7 @@
         "discount": 0,
         "supplier": "PoultryFarm",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -596,7 +596,7 @@
         "discount": 0,
         "supplier": "NutCo",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -608,7 +608,7 @@
         "discount": 0,
         "supplier": "OliveFarm",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -620,7 +620,7 @@
         "discount": 0,
         "supplier": "SauceCo",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -632,7 +632,7 @@
         "discount": 0,
         "supplier": "CannedGoodsCo",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -644,7 +644,7 @@
         "discount": 0,
         "supplier": "ChocolateFactory",
         "stock": 120,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -656,7 +656,7 @@
         "discount": 0,
         "supplier": "PastaCo",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -668,7 +668,7 @@
         "discount": 0,
         "supplier": "SugarCo",
         "stock": 200,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -680,7 +680,7 @@
         "discount": 0,
         "supplier": "SaltCo",
         "stock": 220,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -692,7 +692,7 @@
         "discount": 0,
         "supplier": "SpiceCo",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -704,7 +704,7 @@
         "discount": 0,
         "supplier": "OliveCo",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -716,7 +716,7 @@
         "discount": 0,
         "supplier": "JamFactory",
         "stock": 100,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -728,7 +728,7 @@
         "discount": 0,
         "supplier": "BuckwheatCo",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -740,7 +740,7 @@
         "discount": 0,
         "supplier": "RiceFarm",
         "stock": 150,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -752,7 +752,7 @@
         "discount": 0,
         "supplier": "CornFarm",
         "stock": 140,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -764,7 +764,7 @@
         "discount": 0,
         "supplier": "BeanFarm",
         "stock": 80,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -776,7 +776,7 @@
         "discount": 0,
         "supplier": "LentilFarm",
         "stock": 90,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -788,7 +788,7 @@
         "discount": 0,
         "supplier": "TofuCo",
         "stock": 60,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -800,7 +800,7 @@
         "discount": 0,
         "supplier": "TempehCo",
         "stock": 50,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -812,7 +812,7 @@
         "discount": 0,
         "supplier": "SeitanCo",
         "stock": 40,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -824,7 +824,7 @@
         "discount": 0,
         "supplier": "AlmondCo",
         "stock": 30,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -836,7 +836,7 @@
         "discount": 0,
         "supplier": "CoconutCo",
         "stock": 40,
-        "imagePath": "/imgs/favicons/favicon.png",
+        "imagePath": "/imgs/favicons/def-img.png",
         "description": "Lorem ipsum dolor sit!"
     }
 ]

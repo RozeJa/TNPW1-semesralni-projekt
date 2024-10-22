@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/order-payment.css">
     <script defer src="/js/menu.js"></script>
+    <script defer src="/js/order-payment.js"></script>
 </head>
 <body>
     <header>
@@ -51,20 +52,20 @@
     <main id="order-payment-main">
         <div id="order-payment-container">
             <h2>Vaše objednávka byla úspěšně zadána</h2>
-            <p>Aby jsme ji mohly začíst zpracovávat prosím uhraďte částku xxxx Kč převodem na účet</p>
+            <p>Aby jsme ji mohly začíst zpracovávat prosím uhraďte částku <span class="order-payment-price">xxxx Kč</span> převodem na účet.</p>
             <section class="form">
                 <h2>Platební údaje</h2>
                 <div class="form-element">
                     <label>Číslo účtu:</label>
-                    <p>xxxxxxxxxxxxxxxx/xxxx</p>
+                    <p>9999999999999/9999</p>
                 </div>
                 <div class="form-element">
                     <label>Částka:</label>
-                    <p>x xxx Kč</p>
+                    <p class="order-payment-price">x xxx Kč</p>
                 </div>
                 <div class="form-element">
                     <label>Variabilní symbol:</label>
-                    <p>xxxxxxxxxx</p>
+                    <p id="order-payment-variable-simbol">xxxxxxxxxx</p>
                 </div>
             </section>
             <p>Stav Vaší <a href="/offer/order.html?id=">objednávky</a> můžete sledovat v <a href="/user/account.html">přehledu svého účtu</a></p>

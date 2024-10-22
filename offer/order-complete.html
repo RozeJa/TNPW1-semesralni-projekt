@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +63,6 @@
         </section>
         <section class="form">
             <h2>Doručovací údaje</h2>
-            <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
             <div class="form-element">
                 <label for="name">Jméno a příjmení:</label>
                 <input type="text" name="name">
@@ -113,8 +112,8 @@
         <section class="shopping-continue">
             <a href="/offer/shopping-cart.html">Do košíku</a>
             <div>
-                <p>Cena nákupu: xxx Kč</p>
-                <a href="/offer/order-payment.html">Objednat</a>
+                <p id="order-complete-price"></p>
+                <button>Objednat</button>
             </div>
         </section>
     </main>

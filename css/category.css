@@ -10,7 +10,6 @@ main {
 
 .category a {
     color: black;
-    
 }
 
 .category h2 {
@@ -96,7 +95,7 @@ main {
     padding: 1%;
     border-radius: var(--border-radius);
     background-color: var(--color-white);
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     box-shadow: none;
     transition-duration: var(--transition-delay-short);
@@ -131,18 +130,18 @@ main {
     border-radius: var(--border-radius);
     font-size: 1.1em;
     font-weight: bold;
-    padding: .4vh 0;
+    padding: .4vh .8vh;
 }
 
 
 .filter-container {
-    display: none;
     position: fixed;
     width: 14%;
     height: 100%;
     background-color: var(--color-main-faded);
     color: var(--color-white);
     text-align: center;
+    z-index: 2;
 }
 
 .filter-item select {
@@ -151,7 +150,6 @@ main {
 }
 
 .shopping-cart-container {
-    display: none;
     position: fixed;
     width: 19%;
     right: 0;
@@ -159,6 +157,7 @@ main {
     background-color: var(--color-main-faded);
     color: var(--color-white);
     text-align: center;
+    z-index: 2;
 }
 
 .shopping-cart-container hr, .filter-container hr {
@@ -191,7 +190,7 @@ main {
     color: black;
     transition-duration: var(--transition-delay-short);
     position: relative;
-    margin-top: 5vh;
+    margin-top: 2vh;
     background-color: var(--color-main-inverze);
     border-radius: var(--border-radius);
     font-weight: bold;
@@ -210,20 +209,42 @@ main {
     font-weight: bold;
 }
 
+.shopping-cart-item button {
+    border-radius: var(--border-radius);
+    background-color: var(--color-main-inverze);
+    color: var(--color-white);
+}
+
 .shopping-cart-item:hover {
     background-color: white;
 }
 
 .shopping-cart-item input {
     width: 20%;
+    margin: 0 .3vw;
 }
 
 .rolling-window-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
     height: 50px;
     width: 50px;
     border-radius: var(--border-radius);
     background-color: var(--color-main);
     margin-top: 40vh;
     cursor: pointer;
-    z-index: -1;
+}
+
+.rolling-window-icon img {
+    height: 70%;
+}
+
+.shopping-cart .rolling-window-icon {
+    right: 0;
+}
+
+.category-site-bar-hide {
+    display: none;
 }

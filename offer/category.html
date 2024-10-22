@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,24 +49,21 @@
     </header>
     <main>
         <section class="filter">
-            
-            <!-- reaguje na js -->
-            <div class="filter-container">
+            <div class="filter-container category-site-bar-hide">
                 <h2>Filtrujte</h2> 
                 <hr>
                 <div class="filter-content">
-                    <!-- generuje se -->
                     <div class="filter-item">
                         <p>label</p>
                         <select name="" id="">
-                            <option value="fas">asdf</option>
+                            <option value="fas">option</option>
                         </select>
                     </div>
                 </div>
-                <button>Zavřít ftr</button>
+                <button class="category-site-bar-hide-btn">Zavřít ftr</button>
             </div>
             <div class="rolling-window-icon">
-                
+                <img src="/imgs/favicons/funnel-50.png" alt="filtr">                
             </div>
         </section>
         <section class="category">
@@ -92,42 +89,21 @@
             <hr>
             <section class="category-products">
                 <div class="category-products-container">
-                    <!-- generuje se -->
-                    <div class="category-product">
-                        <img src="" alt="obrazek">
-                        <p>popisek Lorem ipsum dolor sit!</p>
-                        <div class="category-product-price">
-                            <p>Sleva xx %</p>
-                            <p>xx Kč</p>
-                        </div>
-                        <button>Do košíku</button>
-                    </div>
                 </div>
                 <button>Načíst další produkty</button>
             </section>
         </section>
         <section class="shopping-cart">
-            <!-- reaguje na js -->
-            <div class="shopping-cart-container">
+            <div class="shopping-cart-container category-site-bar-hide">
                 <h2>Váš nákup</h2> 
                 <hr>
                 <div class="shopping-cart-content">
-                    <!-- interaguje s uživatelem -->
-                    <div class="shopping-cart-item">
-                        <p>item</p>
-                        <div>
-                            <button>-</button>
-                            <input type="number">
-                            <button>+</button>
-                        </div>
-                        <p>cena Kč</p>
-                    </div>
                 </div>
-                <a href="/offer/shopping-cart.html">Dokončit Cena Kč</a><br>
-                <button>Zavřít náhled na košík</button>
+                <a id="shopping-cart-order-ref" href="/offer/shopping-cart.html"></a><br>
+                <button class="category-site-bar-hide-btn">Zavřít náhled na košík</button>
             </div>
             <div class="rolling-window-icon">
-                
+                <img src="/imgs/favicons/shopping-cart-48.png" alt="kosik">
             </div>
         </section>
     </main>

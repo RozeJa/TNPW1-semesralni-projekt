@@ -80,19 +80,25 @@
     display: flex;
     align-items: center;
 }
-.shopping-continue > div > a {
+.shopping-continue > div > a, .shopping-continue > div > button {
     margin-left: 2vw;
 }
 
-.shopping-continue a {
+.shopping-continue button {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.shopping-continue a, .shopping-continue button {
     padding: 1vh 1vw;
+    margin: 1vh 1vw;
     background-color: var(--color-main-inverze);
     border-radius: var(--border-radius);
     color: var(--color-white);
     transition-duration: var(--transition-delay-short);
 }
 
-.shopping-continue a:hover {
+.shopping-continue a:hover, .shopping-continue button:hover {
     color: var(--color-grey);
-    padding: 1.5vh 1.5vw;
+    padding: 1vh 1.5vw;
 }

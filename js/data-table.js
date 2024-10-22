@@ -73,9 +73,9 @@ function generateThead() {
             items.innerText = "Počet položek"
             tr.appendChild(items)
 
-            let user = document.createElement("th")
-            user.innerText = "Uživatel"
-            tr.appendChild(user)
+            let ordered = document.createElement("th")
+            ordered.innerText = "Objednano"
+            tr.appendChild(ordered)
 
             tr.appendChild(price)
             break;
@@ -102,35 +102,35 @@ function generateTbody() {
                     products.forEach(product => {
                         let tr = document.createElement("tr")
     
-                        let p_id = document.createElement("td")
-                        let p_id_a = document.createElement("a")
-                        p_id_a.href = `/administration/item.html?category=${properties["category"]}&id=${product.id}`
-                        p_id_a.innerText = product.id
-                        p_id.appendChild(p_id_a)
-                        tr.appendChild(p_id)
+                        let id = document.createElement("td")
+                        let id_a = document.createElement("a")
+                        id_a.href = `/administration/item.html?category=${properties["category"]}&id=${product.id}`
+                        id_a.innerText = product.id
+                        id.appendChild(id_a)
+                        tr.appendChild(id)
     
-                        let p_name = document.createElement("td")
-                        let p_name_a = document.createElement("a")
-                        p_name_a.href = `/administration/item.html?category=${properties["category"]}&id=${product.id}`
-                        p_name_a.innerText = product.name
-                        p_name.appendChild(p_name_a)
-                        tr.appendChild(p_name)
+                        let name = document.createElement("td")
+                        let name_a = document.createElement("a")
+                        name_a.href = `/administration/item.html?category=${properties["category"]}&id=${product.id}`
+                        name_a.innerText = product.name
+                        name.appendChild(name_a)
+                        tr.appendChild(name)
 
-                        let p_subcategory = document.createElement("td")
-                        p_subcategory.innerText = subcategories.find(subcategory => subcategory.id === product.subcategoryId).name
-                        tr.appendChild(p_subcategory)
+                        let subcategory = document.createElement("td")
+                        subcategory.innerText = subcategories.find(subcategory => subcategory.id === product.subcategoryId).name
+                        tr.appendChild(subcategory)
 
-                        let p_price = document.createElement("td")
-                        p_price.innerText = `${product.price} Kč` 
-                        tr.appendChild(p_price)
+                        let price = document.createElement("td")
+                        price.innerText = `${product.price} Kč` 
+                        tr.appendChild(price)
 
-                        let p_discount = document.createElement("td")
-                        p_discount.innerText = `${product.discount} %` 
-                        tr.appendChild(p_discount)
+                        let discount = document.createElement("td")
+                        discount.innerText = `${product.discount} %` 
+                        tr.appendChild(discount)
 
-                        let p_stock = document.createElement("td")
-                        p_stock.innerText = `${product.stock} ks` 
-                        tr.appendChild(p_stock)
+                        let stock = document.createElement("td")
+                        stock.innerText = `${product.stock} ks` 
+                        tr.appendChild(stock)
                         
                         tbody.appendChild(tr)
                     })
@@ -145,30 +145,62 @@ function generateTbody() {
                 categories.forEach(category => {
                     let tr = document.createElement("tr")
 
-                    let c_id = document.createElement("td")
-                    let c_id_a = document.createElement("a")
-                    c_id_a.href = `/administration/item.html?category=${properties["category"]}&id=${category.id}`
-                    c_id_a.innerText = category.id
-                    c_id.appendChild(c_id_a)
-                    tr.appendChild(c_id)
+                    let id = document.createElement("td")
+                    let id_a = document.createElement("a")
+                    id_a.href = `/administration/item.html?category=${properties["category"]}&id=${category.id}`
+                    id_a.innerText = category.id
+                    id.appendChild(id_a)
+                    tr.appendChild(id)
 
-                    let c_name = document.createElement("td")
-                    let c_name_a = document.createElement("a")
-                    c_name_a.href = `/administration/item.html?category=${properties["category"]}&id=${category.id}`
-                    c_name_a.innerText = category.name
-                    c_name.appendChild(c_name_a)
+                    let name = document.createElement("td")
+                    let name_a = document.createElement("a")
+                    name_a.href = `/administration/item.html?category=${properties["category"]}&id=${category.id}`
+                    name_a.innerText = category.name
+                    name.appendChild(name_a)
 
-                    tr.appendChild(c_name)
-                    let c_subcategories = document.createElement("td")
+                    tr.appendChild(name)
+                    let subcategories = document.createElement("td")
                     
-                    c_subcategories.innerText = category.subcategory_ids.length
-                    tr.appendChild(c_subcategories)
+                    subcategories.innerText = category.subcategory_ids.length
+                    tr.appendChild(subcategories)
                     
                     tbody.appendChild(tr)
                 })
             })
             break;
         case "orders":
+            let ordersJson = localStorage.getItem("orders")
+            let orders = {}
+            if (ordersJson !== null) {
+                orders = JSON.parse(ordersJson)
+            }
+
+            Object.values(orders).forEach(order => {
+                let tr = document.createElement("tr")
+                
+                let id = document.createElement("td")
+                let id_a = document.createElement("a")
+                id_a.href = `/offer/order.html?id=${order.id}`
+                id_a.innerText = order.id
+                id.appendChild(id_a)
+                tr.appendChild(id)
+
+                let count = document.createElement("td")
+                count.innerText = Object.values(order.items).length
+                tr.appendChild(count)
+
+                let ordered = document.createElement("td")
+                ordered.innerText = order.ordered.split("T")[0]
+                tr.appendChild(ordered)
+
+                let price = document.createElement("td")
+                price.innerText = `${order.totalPrice} Kč`
+                tr.appendChild(price)
+
+                tbody.appendChild(tr)
+            })
+
+
             break;
         case "users":
             break;

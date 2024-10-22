@@ -133,6 +133,7 @@ function createItem(item) {
     desc.innerText = "-"
     countInput.type = "number"
     countInput.value = item.count
+    countInput.min = 1
     inc.innerText = "+"
 
     desc.addEventListener("click", () => {
@@ -140,6 +141,10 @@ function createItem(item) {
         let shoppingCart = JSON.parse(shoppingCartJson)
     
         shoppingCart[item.product.id].count -= 1
+
+        if (shoppingCart[item.product.id].count <= 0) {
+            delete shoppingCart[item.product.id]
+        }
 
         localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart))
         renderShoppingCart()
@@ -149,6 +154,10 @@ function createItem(item) {
         let shoppingCart = JSON.parse(shoppingCartJson)
     
         shoppingCart[item.product.id].count = parseInt(event.target.value)
+
+        if (shoppingCart[item.product.id].count <= 0) {
+            shoppingCart[item.product.id] = 1
+        }
 
         localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart))
         renderShoppingCart()

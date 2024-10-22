@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,14 +54,12 @@
             <p>
                 <a href="/index.html">domu</a>
                 &nbsp;>&nbsp;
-                <!-- doplnit email -->
                 <a href="/user/account.html">email</a>
             </p>
         </section>
         <form action="#" method="post">
             <section class="form">
                 <h2>Základní údaje</h2>
-                <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
                 <div class="form-element">
                     <label for="login">Přihlašovací email:</label>
                     <input type="email" name="login" readonly>
@@ -76,13 +74,11 @@
                 </div>
                 <div class="form-element">
                     <a href="/user/change-pw.html">Změnit heslo</a>
-                    <!-- vymyslet jak to v demu zpracovat (možná jen jako btn) -->
                     <a href="#">Zapnout dvoufázové ověření</a>
                 </div>
             </section>
             <section class="form">
                 <h2>Fakturační údaje</h2>
-                <!-- pro přihlášeného uživatele se kontent automaticky vyplní -->
                 <div class="form-element">
                     <label for="ico">IČO:</label>
                     <input type="text" name="ico">
@@ -116,28 +112,11 @@
         <section class="shopping-cart">
             <h2>Aktivní objednávky</h2>
             <div class="shopping-cart-content">
-                <!-- generuje se z objednávek -->
-                <div class="shopping-cart-item">
-                    <p>date</p>
-                    <p><a href="/offer/order.html">id</a></p>
-                    <p>cena Kč</p>
-                    <p>state</p>
-                    <p><a href="faktura">faktura</a></p>
-                    <button>x</button>
-                </div>
             </div>
         </section>
         <section class="shopping-cart">
             <h2>Archivované objednávky</h2>
             <div class="shopping-cart-content">
-                <!-- generuje se z objednávek -->
-                <div class="shopping-cart-item">
-                    <p>date</p>
-                    <p><a href="/offer/order.html">id</a></p>
-                    <p>cena Kč</p>
-                    <p>state</p>
-                    <p><a href="faktura">faktura</a></p>
-                </div>
             </div>
         </section>
     </main>

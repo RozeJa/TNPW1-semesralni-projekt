@@ -1,6 +1,5 @@
 function renderShoppingCart() {
     let shoppingCartContent = document.querySelector(".shopping-cart-content")
-    shoppingCartContent.innerHTML = ""
     
     let shoppingCartJson = localStorage.getItem("shoppingCart")
     let shoppingCart = {}
@@ -16,7 +15,32 @@ function renderShoppingCart() {
         priceForAll += ((item.product.price * (100 - item.product.discount)) / 100) * item.count
     }
 
-    document.querySelector("#shopping-continue-price").innerText = `Cena nákupu: ${priceForAll} Kč`
+    document.querySelector("#order-complete-price").innerText = `Cena nákupu: ${priceForAll} Kč`
+
+    document.querySelector(".shopping-continue").querySelector("button").addEventListener("click", () => {
+        let order = {
+            id: Math.round(Math.random() * 10000),
+            totalPrice: priceForAll,
+            items: shoppingCart,
+            ordered: new Date()
+        }
+
+        let ordersJson = localStorage.getItem("orders")
+        let orders = {}
+        if (ordersJson !== null) {
+            orders = JSON.parse(ordersJson)
+        }
+
+        console.log(ordersJson, orders);
+        
+
+        orders[order.id] = order
+
+        localStorage.setItem("orders", JSON.stringify(orders))
+        localStorage.setItem("shoppingCart", JSON.stringify({}))
+
+        window.location.href = `/offer/order-payment.html?id=${order.id}`
+    })
 }
 
 function createItem(item) {
@@ -41,15 +65,6 @@ function createItem(item) {
     countInput.value = item.count
     countInput.readOnly = true
 
-    countInput.addEventListener("change", (event) => {
-        let shoppingCartJson = localStorage.getItem("shoppingCart")
-        let shoppingCart = JSON.parse(shoppingCartJson)
-    
-        shoppingCart[item.product.id].count = parseInt(event.target.value)
-
-        localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart))
-        renderShoppingCart()
-    })
 
     count.appendChild(countInput)
     container.appendChild(count)
