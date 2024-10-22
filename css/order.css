@@ -28,3 +28,15 @@
     color: var(--color-grey);
     padding: 2vh 2vw;
 }
+
+@media screen and (max-width: 800px) {
+    #order-main h2 {
+        font-size: 1.5em;
+    }
+    #order-main h3 {
+        font-size: 1em;
+    }
+    .shopping-cart-order {
+        flex-direction: column;
+    }
+}

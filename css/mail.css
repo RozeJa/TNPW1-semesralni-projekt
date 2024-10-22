@@ -275,3 +275,9 @@ button {
     cursor: pointer;
     border: none;
 }
+
+@media screen and (max-width: 1000px) {
+    nav input {
+        display: none;
+    }
+}

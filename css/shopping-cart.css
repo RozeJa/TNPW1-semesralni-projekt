@@ -102,3 +102,20 @@
     color: var(--color-grey);
     padding: 1vh 1.5vw;
 }
+
+@media screen and (max-width: 800px) {
+    .shopping-cart-content {
+        font-size: .8em;
+        width: 92vw;
+    }
+    .shopping-cart-item img {
+        max-height: 5vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .shopping-cart-item {
+        font-size: 1em;
+        flex-direction: column;
+    }
+}

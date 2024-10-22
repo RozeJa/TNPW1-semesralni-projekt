@@ -43,6 +43,7 @@
     transition-duration: var(--transition-delay-short);
     border: none;
     cursor: pointer;
+    width: fit-content;
 }
 
 .form-element button:hover, 
@@ -65,4 +66,39 @@
     justify-content: space-around;
     align-items: center;
     margin: .5vh 0;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .form {
+        width: 80vw;
+    }
+    .form-element {
+        width: 80%;
+    }   
+     .form-element *:first-child {
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .form-element input {
+        width: 10vw;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    
+    .form {
+        text-align: center;
+        width: 94vw;
+        font-size: 1em;
+    }
+    .form-element {
+        width: 90%;
+    }   
+    .form-element input {
+        width: 40vw;
+    }
 }

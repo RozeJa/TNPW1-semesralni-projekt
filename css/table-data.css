@@ -47,6 +47,7 @@
 
 .spreadsheet table {
     width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     border: 1px solid var(--color-black);
     margin: 5vh 0;
@@ -74,4 +75,34 @@
     background-color: var(--color-main-faded);
     color: var(--color-white);
     transition-duration: var(--transition-delay-shortes);
+}
+
+@media screen and (max-width: 1200px) {
+    .spreadsheet {
+        margin-top: 5vh;
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .spreadsheet * {
+        font-size: .9em;
+    }
+
+    .spreadsheet-header input {
+        width: 50%;    
+    }
+
+    .spreadsheet table thead tr {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .spreadsheet-header {
+        flex-direction: column;
+    }
+    .spreadsheet table {
+        overflow: scroll;
+    }
 }

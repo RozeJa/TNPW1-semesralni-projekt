@@ -20,3 +20,15 @@
     margin: 6vh 0;
 }
 
+
+@media screen and (max-width: 800px) {
+    #order-main h2 {
+        font-size: 1.5em;
+    }
+    #order-main h3 {
+        font-size: 1em;
+    }
+    .shopping-cart-order {
+        flex-direction: column;
+    }
+}

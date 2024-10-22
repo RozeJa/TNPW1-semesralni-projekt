@@ -74,3 +74,39 @@ main {
 .login-form-btns a {
     font-size: .8em;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .login-form {
+        width: 80%;
+        text-align: justify;
+    }
+    .login-form-field {
+        width: fit-content;
+    }
+    .login-form-btns {
+        width: fit-content;
+    }
+    .login-form-btns div a:first-child {
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .login-form {
+        width: 100%;
+        overflow: hidden;
+    }
+    .login-form-field {
+        width: fit-content;
+        font-size: 1em;
+    }
+    .login-form-btns input[type="submit"] {
+        padding: 1vh 2vw;
+    }
+    .login-form-btns div {
+        display: flex;
+        flex-direction: column;
+    }
+}

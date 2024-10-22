@@ -94,3 +94,34 @@
 .info-container a {
     color: var(--color-main-inverze);
 }
+
+@media screen and (max-width: 1600px) {
+    
+    .info-nav {
+        position: fixed;
+        top: 13vh;
+        left: 2vw;
+        width: 22%;
+        background-color: var(--color-white);
+        border-radius: var(--border-radius);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .info-nav {
+        display: none;
+    }
+    .info-main {
+        display: flex;
+        margin: 0 5%;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    
+}
