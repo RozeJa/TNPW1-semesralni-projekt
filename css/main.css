@@ -323,7 +323,7 @@ button {
         align-items: center;
         position: absolute;
         z-index: 20;
-        top: 92.89px;
+        top: 92px;
         left: 0;
         width: 100%;
         background-color: var(--color-main);

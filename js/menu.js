@@ -74,7 +74,7 @@ if (userJson !== null) {
 
 let navBurgerContent = document.querySelector(".nav-burger-content")
 document.querySelector(".nav-burger-menu").addEventListener("click", () => {
-    navBurgerContent.classList.remove("nav-burger-content-hide")
+    navBurgerContent.classList.toggle("nav-burger-content-hide")
 })
 document.querySelector("main").addEventListener("click", () => {
     navBurgerContent.classList.add("nav-burger-content-hide")
