@@ -46,7 +46,7 @@ function creareProduct(product) {
     let salePrice = document.createElement("p")
 
     salePercent.innerText = product.discount > 0 ? `Sleva ${product.discount} %` : ''
-    salePrice.innerText = `${(product.price * (100 - product.discount)) / 100} Kč`
+    salePrice.innerText = `${Math.round(product.price * (100 - product.discount)) / 100} Kč`
     
     saleDiv.appendChild(salePercent)
     saleDiv.appendChild(salePrice)

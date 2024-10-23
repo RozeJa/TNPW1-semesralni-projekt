@@ -64,7 +64,7 @@ if (ordersJson !== null && order !== undefined) {
         container.appendChild(count)
 
         let price = document.createElement("p")
-        price.innerText = `${((item.product.price * (100 - item.product.discount)) / 100) * item.count} Kč`
+        price.innerText = `${(Math.round(item.product.price * (100 - item.product.discount)) / 100) * item.count} Kč`
         container.appendChild(price)
 
         return container

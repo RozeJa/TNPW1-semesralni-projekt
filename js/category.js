@@ -121,7 +121,7 @@ function renderShoppingCart() {
     for (const productID in shoppingCart) {
         let item = shoppingCart[productID]
         shoppingCartContent.appendChild(createItem(item))
-        priceForAll += ((item.product.price * (100 - item.product.discount)) / 100) * item.count
+        priceForAll += (Math.round(item.product.price * (100 - item.product.discount)) / 100) * item.count
     }
 
     document.querySelector("#shopping-cart-order-ref").innerText = `Dokončit ${priceForAll} Kč`
@@ -190,7 +190,7 @@ function createItem(item) {
     container.appendChild(count)
 
     let price = document.createElement("p")
-    price.innerText = `${((item.product.price * (100 - item.product.discount)) / 100) * item.count} Kč`
+    price.innerText = `${(Math.round(item.product.price * (100 - item.product.discount)) / 100) * item.count} Kč`
     container.appendChild(price)
 
     return container

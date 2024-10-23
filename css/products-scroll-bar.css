@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 10%;
-    min-width: 140px;
+    min-width: 160px;
     font-size: .8em;
     margin: 1em 0;
     margin-right: 2vw;
@@ -71,6 +71,9 @@
     color: var(--color-main-inverze);
     font-weight: bold;
     font-size: 1.2em;
+}
+.products-scroll-bar-product-price p:first-child {
+    margin-right: 10px;
 }
 
 .products-scroll-bar-product img {
