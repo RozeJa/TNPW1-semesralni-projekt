@@ -90,7 +90,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     width: 16%;
-    height: 30vh;
     min-width: 16%;
     font-size: .8em;
     margin: 1%;
@@ -133,6 +132,7 @@ main {
     font-size: 1.1em;
     font-weight: bold;
     padding: .4vh .8vh;
+    margin-top: 2vh;
 }
 
 
