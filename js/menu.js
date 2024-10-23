@@ -65,13 +65,6 @@ function generateCategories(subcategories, categories) {
 }
 
 
-let userJson = sessionStorage.getItem("user")
-if (userJson !== null) {
-    let user = JSON.parse(userJson)
-    document.querySelector("#nav-login").innerText = user.name
-    document.querySelector("#nav-login").href = "/user/account.html"
-}
-
 let navBurgerContent = document.querySelector(".nav-burger-content")
 document.querySelector(".nav-burger-menu").addEventListener("click", () => {
     navBurgerContent.classList.toggle("nav-burger-content-hide")
