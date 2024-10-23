@@ -150,7 +150,6 @@ header > nav input {
     padding: 1vh 1vw;
     font-weight: normal;
     background-color: inherit;
-    transition-duration: var(--transition-delay-short);
     border-radius: var(--border-radius);
 }
 
