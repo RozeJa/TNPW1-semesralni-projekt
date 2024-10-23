@@ -5,7 +5,7 @@
 
 .info-nav {
     position: fixed;
-    top: 13vh;
+    top: 120px;
     left: 10%;
     width: 15%;
     background-color: var(--color-white);
@@ -38,7 +38,7 @@
 
 .info-container-bookmark {
     margin-left: 10%;
-    padding-top: 12vh;
+    padding-top: 120px;
 }
 
 .info-container-bookmark ol {
@@ -87,7 +87,6 @@
 .info-container h1 {
     text-align: center;
     font-size: 2em;
-    padding-top: 12vh;
     margin-left: 0;
 }
 
@@ -99,11 +98,8 @@
     
     .info-nav {
         position: fixed;
-        top: 13vh;
         left: 2vw;
         width: 22%;
-        background-color: var(--color-white);
-        border-radius: var(--border-radius);
     }
 }
 

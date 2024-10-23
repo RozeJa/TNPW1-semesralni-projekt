@@ -168,7 +168,7 @@ main {
 
 .shopping-cart-content, .filter-content {
     background-color: var(--color-white);
-    height: 70%;
+    height: 65%;
     overflow: auto;
     margin-bottom: 2vh;
 }
@@ -278,6 +278,19 @@ main {
     .category {
         padding: 0 2%;
         width: 96%;
+    }
+}
+
+
+@media screen and (max-height: 800px) {
+    .shopping-cart-content, .filter-content {
+        height: 45vh
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .filter, .shopping-cart {
+        display: none;
     }
 }
 

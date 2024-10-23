@@ -39,14 +39,12 @@ header {
     top: 0;
     background-color: var(--color-main);
     font-weight: bold;
-    height: fit-content;
     z-index: 10;
 }
 
 header > nav {
     display: flex;
     align-items: center;
-    height: 10vh;
 }
 
 header > nav input {
@@ -57,7 +55,7 @@ header > nav input {
 }
 
 #logo {
-    height: 10vh;
+    height: 90px;
 }
 
 #logo img {
@@ -86,7 +84,7 @@ header > nav input {
 }
 
 .nav-bar > li:hover {
-    padding: 3vh 0;
+    padding: 30px 0;
 }
 
 .nav-bar a, .nav-bar p {   
@@ -111,7 +109,7 @@ header > nav input {
 .nav-bar-categories-container {
     display: none;
     position: absolute;
-    top: 10vh;
+    top: 90px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -324,7 +322,7 @@ button {
         align-items: center;
         position: absolute;
         z-index: 20;
-        top: 92px;
+        top: 90px;
         left: 0;
         width: 100%;
         background-color: var(--color-main);

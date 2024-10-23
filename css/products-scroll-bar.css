@@ -24,6 +24,7 @@
 
 .products-scroll-bar-products {
     display: flex;
+    justify-items: flex-start;
     width: 95%;
     justify-content: space-around;
     overflow: hidden;
