@@ -1,0 +1,8 @@
+index
+|-> admin (rozcestí) 
+||-> správa 	-> editace
+|		:-> objednávka
+|-> kategorie :-> košík
+|-> přihlášení | (pokud by bylo možné řešit přihlášení) účet
+|-> košík -> doprava -> platba  :-> účet
+				:-> objednávka

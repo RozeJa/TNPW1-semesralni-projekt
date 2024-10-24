@@ -36,3 +36,64 @@ page_nav.appendChild(a)
 
 let h1 = document.querySelector("h1")
 h1.innerText = `${ui_map_item[properties["category"]]}: ${properties["id"] !== "new" ? properties["id"] : "nový"}`
+
+
+function createFormElement(left, right) {
+    let container = document.createElement("div")
+    container.classList.add("form-element")
+
+    container.appendChild(left)
+    container.appendChild(right)
+
+    return container
+}
+
+function createLabel(label) {
+    let container = document.createElement("label")
+    container.innerText = label
+    return container    
+}
+
+function createInput(name, type) {
+    let container = document.createElement("input")
+    container.name = name
+    container.type = type
+
+    return container
+}
+function createTextArea(name) {
+    let container = document.createElement("textarea")
+    container.name = name
+    return container
+}
+
+
+let form = document.querySelector(".form")
+
+switch (properties["category"]) {
+    case "products":
+        form.appendChild(createFormElement(createLabel("Název"), createInput("name", "text")))
+        form.appendChild(createFormElement(createLabel("Cena"), createInput("price", "number")))
+        form.appendChild(createFormElement(createLabel("Sleva"), createInput("discount", "number")))
+        form.appendChild(createFormElement(createLabel("Na spladě"), createInput("stock", "number")))
+        form.appendChild(createFormElement(createLabel("Obrázek"), createInput("imagePath", "file")))
+        form.appendChild(createFormElement(createLabel("Popis"), createTextArea("description")))
+
+        break;
+    case "categories":
+        form.appendChild(createFormElement(createLabel("Název"), createInput("name", "text")))
+        break;
+    case "orders":
+        break;
+    case "users":
+        break;
+}
+
+let return_a = document.createElement("a")
+return_a.href = "/administration/crossroad.html"
+return_a.innerText = "Zahodit změny"
+let submit = document.createElement("input")
+submit.type = "submit"
+submit.value = "ulozit"
+
+form.appendChild(createFormElement(return_a, submit))
