@@ -28,21 +28,18 @@
     justify-content: space-between;
     width: 95%;
     padding: 1vh 2.25%;
+    font-size: 1.2em;
     font-weight: bold;
     border-radius: var(--border-radius);
     transition-duration: var(--transition-delay-short);
 }
 
 .shopping-cart-item a {
-    color: var(--color-white);
-}
-
-.shopping-cart-item:hover a {
     color: black;
 }
 
 .shopping-cart-item:hover {
-    background-color: var(--color-main);
+    background-color: var(--color-main-faded-hover);
 }
 
 .shopping-cart-item button {

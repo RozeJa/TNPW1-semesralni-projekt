@@ -141,7 +141,6 @@ main {
     width: 14%;
     height: 100%;
     background-color: var(--color-main-faded);
-    color: var(--color-white);
     text-align: center;
     z-index: 2;
 }
@@ -157,7 +156,6 @@ main {
     right: 0;
     height: 100%;
     background-color: var(--color-main-faded);
-    color: var(--color-white);
     text-align: center;
     z-index: 2;
 }
@@ -174,7 +172,7 @@ main {
 }
 
 .shopping-cart-container a {
-    color: black;
+    color: var(--color-white);
     transition-duration: var(--transition-delay-short);
     
     font-weight: bold;
@@ -184,12 +182,8 @@ main {
     cursor: pointer;
 }
 
-.shopping-cart-container a:hover, .shopping-cart-container > button:hover {
-    color: var(--color-white);
-}
-
 .shopping-cart-container > button, .filter-container button {
-    color: black;
+    color: var(--color-white);
     transition-duration: var(--transition-delay-short);
     position: relative;
     margin-top: 2vh;

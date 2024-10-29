@@ -10,9 +10,10 @@ body {
    /* --color-main: #2BEB64;
    */
     --color-main: #3DEB74;
-    --color-main-faded: #4BAD6A;
-    --color-main-faded-80: #4bad6a80;
-    --color-main-faded-40: #4BAD6A40;
+    --color-main-faded: #FFC242;
+    --color-main-faded-hover: #FFAD00;
+    --color-main-faded-80: #FFC24280;
+    --color-main-faded-40: #FFC24240;
     --color-main-inverze: #EB3F3C;
     --color-transparent-black-30: rgba(0, 0, 0, .3);
     --color-white: #eeeeee;

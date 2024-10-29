@@ -39,7 +39,6 @@
     border-radius: var(--border-radius);
     padding: 1vh 1vw;
     background-color: var(--color-main-faded);
-    color: var(--color-white);
     transition-duration: var(--transition-delay-short);
     border: none;
     cursor: pointer;
@@ -50,7 +49,7 @@
 .form-element a:hover, 
 .form-element input[type="submit"]:hover,
 .form-element input[type="button"]:hover {
-    box-shadow: .5em .5em .5em var(--color-grey-dark);
+    box-shadow: .5em .5em .5em var(--color-grey);
     padding: 1vh 1.5vw;
 }
 

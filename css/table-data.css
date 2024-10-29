@@ -73,7 +73,6 @@
 }
 .spreadsheet table tbody tr:hover {
     background-color: var(--color-main-faded);
-    color: var(--color-white);
     transition-duration: var(--transition-delay-shortes);
 }
 
