@@ -77,8 +77,7 @@
 }
 
 .products-scroll-bar-product img {
-    height: 50%;
-    min-height: 50%;
+    height: 160px;
     border-radius: var(--border-radius);
 }
 

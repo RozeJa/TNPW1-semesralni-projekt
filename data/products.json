@@ -8,7 +8,7 @@
         "discount": 5,
         "supplier": "FruitCo",
         "stock": 120,
-        "imagePath": "/imgs/favicons/def-img.png",
+        "imagePath": "/imgs/products/banany.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -20,7 +20,7 @@
         "discount": 10,
         "supplier": "CitrusFarm",
         "stock": 150,
-        "imagePath": "/imgs/favicons/def-img.png",
+        "imagePath": "/imgs/products/pomerance.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -44,7 +44,7 @@
         "discount": 5,
         "supplier": "GrapeWorld",
         "stock": 80,
-        "imagePath": "/imgs/favicons/def-img.png",
+        "imagePath": "/imgs/products/hrozny.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -164,7 +164,7 @@
         "discount": 5,
         "supplier": "PumpkinPatch",
         "stock": 60,
-        "imagePath": "/imgs/favicons/def-img.png",
+        "imagePath": "/imgs/products/dyne.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {
@@ -188,7 +188,7 @@
         "discount": 10,
         "supplier": "DairyDelights",
         "stock": 200,
-        "imagePath": "/imgs/favicons/def-img.png",
+        "imagePath": "/imgs/products/jogurt.png",
         "description": "Lorem ipsum dolor sit!"
     },
     {

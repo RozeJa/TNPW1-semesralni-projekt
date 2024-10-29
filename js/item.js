@@ -48,9 +48,10 @@ function createFormElement(left, right) {
     return container
 }
 
-function createLabel(label) {
+function createLabel(label, forInput) {
     let container = document.createElement("label")
     container.innerText = label
+    container.htmlFor = forInput
     return container    
 }
 
@@ -58,6 +59,7 @@ function createInput(name, type) {
     let container = document.createElement("input")
     container.name = name
     container.type = type
+    container.id = name
 
     return container
 }
@@ -72,16 +74,16 @@ let form = document.querySelector(".form")
 
 switch (properties["category"]) {
     case "products":
-        form.appendChild(createFormElement(createLabel("Název"), createInput("name", "text")))
-        form.appendChild(createFormElement(createLabel("Cena"), createInput("price", "number")))
-        form.appendChild(createFormElement(createLabel("Sleva"), createInput("discount", "number")))
-        form.appendChild(createFormElement(createLabel("Na spladě"), createInput("stock", "number")))
-        form.appendChild(createFormElement(createLabel("Obrázek"), createInput("imagePath", "file")))
-        form.appendChild(createFormElement(createLabel("Popis"), createTextArea("description")))
+        form.appendChild(createFormElement(createLabel("Název", "name"), createInput("name", "text")))
+        form.appendChild(createFormElement(createLabel("Cena", "price"), createInput("price", "number")))
+        form.appendChild(createFormElement(createLabel("Sleva", "discount"), createInput("discount", "number")))
+        form.appendChild(createFormElement(createLabel("Na spladě", "stock"), createInput("stock", "number")))
+        form.appendChild(createFormElement(createLabel("Obrázek", "imagePath"), createInput("imagePath", "file")))
+        form.appendChild(createFormElement(createLabel("Popis", "description"), createTextArea("description")))
 
         break;
     case "categories":
-        form.appendChild(createFormElement(createLabel("Název"), createInput("name", "text")))
+        form.appendChild(createFormElement(createLabel("Název", "name"), createInput("name", "text")))
         break;
     case "orders":
         break;

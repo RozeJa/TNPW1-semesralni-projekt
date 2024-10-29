@@ -48,7 +48,7 @@ main {
 }
 
 .category-subcategory:hover {
-    box-shadow: 1em 1em 1em var(--color-grey-dark);
+    box-shadow: 0 0 2em var(--color-grey-dark);
 }
 
 .category-sorting input {
@@ -121,8 +121,7 @@ main {
 }
 
 .category-product img {
-    height: 50%;
-    min-height: 50%;
+    width: 100%;
     border-radius: var(--border-radius);
 }
 
@@ -162,6 +161,7 @@ main {
 
 .shopping-cart-container hr, .filter-container hr {
     margin: 1vh;
+    border: 1px solid var(--color-black);
 }
 
 .shopping-cart-content, .filter-content {
